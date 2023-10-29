@@ -8,7 +8,7 @@ import gc
 @torch.no_grad()
 def embed_datasets(input_path="data/clean", pretrained_model_path='BAAI/bge-large-en-v1.5', num_tokens=512, num_text_chunks_per_dataset=100, output_dir="data/dataset"):
     os.makedirs(output_dir, exist_ok=True)
-    dataset_dict = {"text": [], "embedding": [], "tokens": [], "database": [], "page": [], "chunk": []}
+    dataset_dict = {"text": [], "embedding": [], "tokens": [], "database": [], "file": [], "chunk": []}
     tokenizer = AutoTokenizer.from_pretrained(pretrained_model_path)
     model = AutoModel.from_pretrained(pretrained_model_path).to("cuda")
     model.eval()
@@ -18,8 +18,6 @@ def embed_datasets(input_path="data/clean", pretrained_model_path='BAAI/bge-larg
         os.makedirs(output_subtask_path, exist_ok=True)
         prev_save_idx = -1
         for idx, file in tqdm(enumerate(os.listdir(subtask_path))):
-            torch.cuda.empty_cache()
-            gc.collect()
             file_path = os.path.join(subtask_path, file)
             with open(file_path, "r", encoding='utf-8') as f:
                 text = f.read()
@@ -57,6 +55,8 @@ def embed_datasets(input_path="data/clean", pretrained_model_path='BAAI/bge-larg
                 i += 1
 
             if (idx + 1) % num_text_chunks_per_dataset == 0:
+                torch.cuda.empty_cache()
+                gc.collect()
                 dataset_idx = idx // num_text_chunks_per_dataset
                 prev_save_idx = dataset_idx
                 dataset = Dataset.from_dict(dataset_dict)
