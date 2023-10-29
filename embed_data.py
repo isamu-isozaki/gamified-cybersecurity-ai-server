@@ -6,7 +6,7 @@ import math
 from tqdm.auto import tqdm
 import gc
 @torch.no_grad()
-def embed_datasets(input_path="data/clean", pretrained_model_path='BAAI/bge-large-zh-v1.5', num_tokens=512, num_text_chunks_per_dataset=100, output_dir="data/dataset"):
+def embed_datasets(input_path="data/clean", pretrained_model_path='BAAI/bge-large-en-v1.5', num_tokens=512, num_text_chunks_per_dataset=100, output_dir="data/dataset"):
     os.makedirs(output_dir, exist_ok=True)
     dataset_dict = {"text": [], "embedding": [], "tokens": [], "database": [], "page": [], "chunk": []}
     tokenizer = AutoTokenizer.from_pretrained(pretrained_model_path)
@@ -21,7 +21,7 @@ def embed_datasets(input_path="data/clean", pretrained_model_path='BAAI/bge-larg
             torch.cuda.empty_cache()
             gc.collect()
             file_path = os.path.join(subtask_path, file)
-            with open(file_path, "r") as f:
+            with open(file_path, "r", encoding='utf-8') as f:
                 text = f.read()
             encoded_input = tokenizer([text], padding=True, truncation=False, return_tensors='pt', add_special_tokens=True)
 
@@ -45,12 +45,12 @@ def embed_datasets(input_path="data/clean", pretrained_model_path='BAAI/bge-larg
                 }
                 model_output = model(**encoded_chunk)
                 sentence_embeddings = model_output[0][:, 0]
-                embeddings.append(sentence_embeddings.cpu().numpy())
+                embeddings.append(sentence_embeddings.cpu().numpy()[0])
             i = 0
             for (token_chunk, embedding) in zip(token_chunks, embeddings):
                 dataset_dict["text"].append(tokenizer.decode(token_chunk[0]))
                 dataset_dict["tokens"].append(token_chunk[0].cpu().numpy())
-                dataset_dict["embedding"].append(embedding[0])
+                dataset_dict["embedding"].append(embedding)
                 dataset_dict["database"].append(subtask)
                 dataset_dict["file"].append(file)
                 dataset_dict["chunk"].append(i)
@@ -81,6 +81,9 @@ def combine_datasets(output_dir="data/dataset", output_dataset_path="data/scrape
 if __name__ == "__main__":
     output_dir = "data/full_token_dataset"
     output_dataset_path = "data/full_token_scaped_dataset"
+    hf_dataset_path = "Isamu136/penetration_testing_scraped_dataset"
 
     embed_datasets(output_dir=output_dir)
     combine_datasets(output_dir=output_dir, output_dataset_path=output_dataset_path)
+    dataset = load_from_disk(output_dataset_path)
+    dataset.push_to_hub(hf_dataset_path)
