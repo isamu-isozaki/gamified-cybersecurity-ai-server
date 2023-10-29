@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+llama.cpp
+model
+*.ipynb
+data
+*/__pycache__
