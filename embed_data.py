@@ -80,7 +80,7 @@ def combine_datasets(output_dir="data/dataset", output_dataset_path="data/scrape
     dataset.save_to_disk(output_dataset_path)
 if __name__ == "__main__":
     output_dir = "data/full_token_dataset"
-    output_dataset_path = "data/full_token_scaped_dataset"
+    output_dataset_path = "data/full_token_scraped_dataset"
     hf_dataset_path = "Isamu136/penetration_testing_scraped_dataset"
 
     embed_datasets(output_dir=output_dir)
