@@ -1,0 +1,20 @@
+, running Windows Server 2012 R2 and has a domain name of example.com, which is hosted by the registrar GoDaddy.
+Ports 80 (HTTP) and 443 (HTTPS) are open with Apache and SSL respectively, and port 135 (RPC) is also open. The machine is also running SQL Server 2008 R2 SP2 on TCP ports 1433 (default), 1434 (browser servce), and 1435 (client connections).
+The web server is configured to serve a custom homepage as well as some dynamic content, including a PHP script for viewing employee information. The Apache logs are being rotated daily and kept for one month before being backed up.
+A NetBIOS name of EXAMPLE is also registered on the network, along with service SMB running on TCP port 139 and TCP ports 445 (SMB over SSL).
+There is some evidence of outbound connections to 8.8.8.8 (Google DNS), as well as to a number of servers located in China.
+The above screenshot shows the tree traversal, if a user starts with root and clicks on Reconnaissance, Passive Information Gathering and then Identify Open Ports Perform a Full Port Scan. The code for this is below:
+```python
+def traverse(node):
+    print(node.data)
+    
+    if node.completion_status != "done":
+        print("Not completed yet")
+    else:
+        for child in node.children:
+            traverse(child)
+
+traverse(root)
+```
+
+Based on the passage above, Can you provide a Python implementation of the given algorithm to traverse a binary tree with completion status and display the traversal output?

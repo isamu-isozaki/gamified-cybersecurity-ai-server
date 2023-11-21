@@ -1,0 +1,26 @@
+
+Below is the valid PTT:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": {
+                "Fingerprint the OS": "nmap-os-spoofer.pl - ping - n - T3:T0 -- open -- os -- version -- script -- timing 10.23.42.434",
+                "Scan for TCP services": "nmap -p1-65535 -Pn -n - Aggressive 10.23.42.434",
+                "Scan for UDP services": "nmap -sU -Pn -n 10.23.42.434",
+                "Nmap results": ""
+            },
+            "Determine the purpose of each open port": "todo"
+        }
+    }
+}
+This is the full command to run, in Linux or macOS:
+python -c 'import pprint; print(pp.pformat({...}))' - replacing the three dots (...) with your PTT.
+To execute this, follow these steps:
+1. Copy the PTT template provided above into a text editor.
+2. Customize it based on your scan results and target information.
+3. Save it as a .py file.
+4. Run python -c 'import pprint; print(pp.pformat({...}))' where {...} is replaced with the PTT you created in step 2.
+5. The Python dictionary will be printed to the console.
+In case of any error, please write us at [email protected]. Based on the passage above, How do I execute the post-exploitation steps during a pentest simulation using Python and Nmap?

@@ -1,0 +1,40 @@
+56 on Ubuntu 18.04. The target device has multiple services running, including Apache/2.4.29 (Ubuntu), MySQL 5.7.34-0ubuntu0.18.04.1, and PostgreSQL 11.1 (Ubuntu 18.04.1). When querying DNS, the system resolves to ns[.]cloudflare[.]com, ns-1290[.]google[.]com, and ns-3716[.]google[.]com. The machine is using OpenSSH_7.6p1 RSA key fingerprint .......... The firewall rules are provided below:
+
+```
+Chain INPUT (policy DROP)
+target     prot opt source               destination          state
+ACCEPT     all  --  anywhere             anywhere             state--related,established
+ACCEPT     icmp --  anywhere             anywhere             icmptype any
+ACCEPT     tcp  --  anywhere              anywhere             state--new tcp dpt:ssh
+ACCEPT     tcp  --  anywhere              anywhere             tcp flags:SYN,RST,ACK
+ACCEPT     all  --  anywhere              anywhere             ctstate RELATED,ESTABLISHED
+REJECT     all  --  anywhere              anywhere             reject-with DROP
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination          state
+ACCEPT     all  --  anywhere             anywhere             state--related,established
+ACCEPT     icmp --  anywhere             anywhere             icmptype any
+ACCEPT     tcp  --  anywhere              anywhere             state--new tcp dpt:https
+ACCEPT     tcp  --  anywhere              anywhere             tcp flags:SYN,RST,ACK
+ACCEPT     all  --  anywhere              anywhere             ctstate RELATED,ESTABLISHED
+REJECT     all  --  anywhere              anywhere             reject-with ICMP_NET_UNREACHABLE
+
+Chain FORWARD (policy DROP)
+target     prot opt source               destination          state
+ACCEPT     all  --  anywhere             anywhere             state--related,established
+ACCEPT     icmp --  anywhere             anywhere             icmptype any
+ACCEPT     tcp  --  anywhere              anywhere             state--new tcp dpt:https
+REJECT     all  --  anywhere              anywhere             reject-with DROP
+```
+
+In terms of open ports, the results are as follows:
+
+```
+TCP        0  8192   10.23.42.43   any           ESTABLISHED
+TCP        0     60   10.23.42.43   75.126.195.182  SYN_SENT
+TCP        0  22             *:*           LISTEN
+TCP        0  80             *:*           LISTEN
+TCP        0  443            *:*           LISTEN
+```
+
+The Apache web server is running on port 80 and the HTTPS service is listening on port 443

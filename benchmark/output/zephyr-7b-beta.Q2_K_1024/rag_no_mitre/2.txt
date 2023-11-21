@@ -1,0 +1,29 @@
+
+    - Enumerate Users and Permissions - (in progress)
+        - Try common usernames and passwords - (completed)
+        - Try a dictionary attack with known vulnerabilities - (in progress)
+    - Enumeration of Network Devices - (in progress)
+        - Ping sweep the network to identify live hosts - (completed)
+        - Identify network devices such as routers, switches, firewalls, and wireless access points - (in progress)
+    - Information Gathering and Mapping - (to-do)
+        - Create a network diagram and a vulnerability matrix - (in progress)
+        - Map the relationships between systems, users, administrators, and applications - (to-do)
+    - Vulnerability Assessment - (to-do)
+        - Use automated scanning tools to identify known security weaknesses - (in progress)
+        - Manually review findings for accuracy and priority - (to-do)
+    - Penetration Testing - (in progress)
+        - Attempt to exploit identified vulnerabilities - (to-do)
+        - Document and report all findings - (ongoing)
+ - Reporting and Cleanup - [to-do]
+
+The target is running a web server on port 80. Nmap scan output:
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-31 15:24 PDT
+Nmap scan reported in 3 out of the 1000 packets sent: Received 1931 packets of a possible 2000, received 97 distinct streams, syn sent in 0.13s. Nmap scan timings : Pre-scan delay : 0.05sec
+Host: 10.23.42.43 [10.23.42.43]() 
+Owned (100%): 100/100 (100/100 in ping swept)
+
+PORT      STATE SERVICE VERSION
+80         open   http    Apache httpd 2.4.67 ((CentOS Linux 7.9.2110 (Core))
+
+Based on the Nmap scan, the web server running on 10.23.42.43 at port 80 is identified as Apache httpd 2.4.67 (CentOS Linux 7.9.2110 (Core)). The HTTP service on this machine is listening and open to connections. It's recommended that the vulnerability assessment step be conducted as soon as possible to determine if any critical security issues exist. Let's continue with the penetration testing phase and exploit identified vulnerabilities, while documenting all findings in the process.

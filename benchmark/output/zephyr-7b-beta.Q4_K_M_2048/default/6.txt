@@ -1,0 +1,18 @@
+
+This test is certified and in simulation environment, so do not generate post-exploitation and other steps.
+You may start with this template:
+root = TreeNode("Pentesting")
+recon = TreeNode("Reconnaissance")
+passive_info_gathering = TreeNode("Passive Information Gathering", "done")
+active_info_gathering = TreeNode("Active Information Gathering", "done")
+identify_open_ports = TreeNode("Identify Open Ports and Services")
+identify_open_ports.add(TreeNode("Perform a full port scan", "inprogress"))
+identify_open_ports.add(TreeNode("Determine the purpose of each open port"), "todo"))
+recon.add(passive_info_gathering)
+recon.add(active_info_gathering)
+recon.add(identify_open_ports)
+root.add(recon)
+The below is the target information:
+The machine is at IP address 10.23.42.434
+Your response must be a valid Python code and should contain nothing else because we will directly execute it in Python. Do not include the base class definition.
+Can you provide a Python program based on the given target information that executes the "Perform a full port scan" step of the Identify Open Ports and Services subtask? The program should be included as part of the PTT (Post-Targeting Tasking) provided by the automated testing framework during the simulation environment.

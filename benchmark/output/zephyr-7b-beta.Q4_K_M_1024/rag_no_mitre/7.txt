@@ -1,0 +1,4 @@
+ The syntax is simple, you may add key/value pairs as needed to satisfy your needs.
+To pass this step with the above target information, please complete the following items:
+1. Create a new key "Identify Open Ports and Services" under the "Reconnaissance" section.
+2. Under "Identify Open Ports and Services", create two more keys named "Perform a full port scan" and "Determine the purpose of each open port". Set both to "todo".

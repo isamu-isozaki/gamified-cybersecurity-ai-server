@@ -1,0 +1,43 @@
+
+    - Identify Network Architecture & Devices - (to-do)
+ - Vulnerability Scanning - [to-do]
+    - Perform a vulnerability scan - (to-do)
+    - Analyze results and determine critical vulnerabilities - (to-do)
+ - Exploitation - [to-do]
+    - Identify exploitable services & vulnerabilities - (to-do)
+    - Determine the feasibility of each exploit - (to-do)
+    - Execute successful exploits - (to-do)
+ - Post Exploitation & Cleanup - [to-do]
+    - Establish persistence - (to-do)
+    - Privilege escalation - (to-do)
+    - Data exfiltration - (to-do)
+    - Cover tracks & cleanup - (to-do)
+
+Here's an example of how to fill out the todo list:
+
+The machine is at IP address 10.23.42.43
+
+Complete the todo list below:
+ - Reconnaissance - [completed]
+    - Passive Information Gathering - (completed)
+        - Google search for company name - "Company XYZ" returns official website and LinkedIn profiles of employees
+        - SearchShp for company domain - no results
+        - Shodan for open IP addresses - none found
+    - Active Information Gathering - (completed)
+        - Nmap scan to identify open ports - 22(ssh), 80(http)
+        - Version detection on identified services reveals Apache web server and OpenSSH v7.6p1 running
+        - Enumeration of directories on web server yields a login page for an application called "Customer Portal"
+    - Identify Open Ports and Services - [in progress]
+        - Perform a full port scan - (to-do)
+            - Nmap scan using "-p 1-65535" to enumerate all open ports
+        - Determine the purpose of each open port - [in progress]
+            - SSH (22): used for remote access and administration by authorized users
+            - HTTP (80): web server serving the "Customer Portal" application
+    - Identify Network Architecture & Devices - [in progress]
+        - Ping sweep to enumerate live hosts on network - (to-do)
+            - Nmap scan using "-scan" option to sweep subnet 10.23.42.0/24 and determine whether any additional devices are responding to ICMP echo requests
+    - Vulnerability Scanning - [in progress]
+        - Perform a vulnerability scan - (to-do)
+            - Nmap scan using "-sV" option to identify running services and their versions
+                - Apache web server (http): version 2.4.38, patched up to date with security updates as of March 2021
+                - OpenSSH: version 

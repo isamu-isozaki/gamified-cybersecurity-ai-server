@@ -1,0 +1,44 @@
+
+    - Fingerprint Operating System and Applications - (completed)
+    - Identify Network Devices - (completed)
+
+ - Scanning & Enumeration - [in progress]
+    - Network Mapping/Reconnaissance - (to-do)
+        - Perform network mapping to identify all devices on the network - (to-do)
+    - Service and Application Identification - (to-do)
+        - Use tools like Nmap or Netdiscover to identify services running on the network - (to-do)
+    - Passive Network Monitoring - (completed)
+        - Analyze packet captures to gather information about network traffic - (completed)
+    - Vulnerability Scanning - (in progress)
+        - Use tools like Nessus or OpenVas to perform a vulnerability scan of the network - (to-do)
+
+ - Gaining Access - [not started]
+    - Network Attacks - (to-do)
+        - Perform a man-in-the-middle attack to intercept and modify network traffic - (to-do)
+        - Use network spoofing techniques to gain unauthorized access to resources - (to-do)
+    - Social Engineering - (not started)
+        - Develop a social engineering strategy to trick users into providing sensitive information - (to-do)
+        - Use tools like Metasploit or SET to automate the phishing process - (to-do)
+
+ - Maintaining Access - [not started]
+    - Privilege Escalation - (to-do)
+        - Use tools like PTH or Metasploit to escalate privileges on compromised systems - (to-do)
+        - Use techniques like pass the hash, pass the ticket or privilege impersonation to gain higher privileges - (to-do)
+    - Defense Evasion - (not started)
+        - Use tools like Mimikatz or Bloodhound to bypass device security measures and maintain persistence on compromised systems - (to-do)
+
+ - Clearing Tracks - [not started]
+    - Covering Tracks - (to-do)
+        - Use tools like WMI or PsExec to delete log files, registry entries and other traces of activity - (to-do)
+    - Stealth - (not started)
+        - Use techniques like fileless malware, PowerShell scripts or script obfuscation to remain undetected - (to-do)
+
+ - Reporting - [not started]
+    - Documenting Findings and Actions Taken - (to-do)
+        - Maintain detailed notes on all actions taken during the assessment - (to-do)
+    - Notifying Appropriate Authorities - (not started)
+        - Follow established procedures for reporting findings to appropriate authorities - (to-do)
+    - Providing Recommendations and Solutions - (not started)
+        - Develop a list of recommended actions based on the assessment results - (to-do)
+
+Based on the given information, please provide a detailed report on the network topology and vulnerabilities discovered during the assessment. Additionally, provide recommendations for mitigating these vulnerabilities and improving overall network security. The report should be written in a clear and concise style, utilizing industry standard terminology and formatting conventions. Please include screenshots or other visual aids to support your findings where appropriate.

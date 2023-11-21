@@ -1,0 +1,29 @@
+
+Please write your PTT following this format:
+
+```python
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": "todo",
+            "Determine the purpose of each open port": {
+                "21 (FTP)": "data transfer protocol",
+                "22 (SSH)": "remote login protocol",
+                "445 (MS-RPC)": "Microsoft's remote procedure call protocol",
+                "80 (HTTP)": "Hypertext Transfer Protocol",
+                "443 (HTTPS)": "encrypted HTTP traffic"
+            }
+        }
+    }
+}
+```
+
+This is the example PTT that we're expecting from you.
+Feel free to modify it to match your own findings during the test.
+Note: Please don't execute this sample PTT, as it won't work without being loaded into a testing framework (like MobSF).
+Your response should be based on the following:
+Perform a full port scan using nmap or similar tool with the following options: -v (increase verbosity) -p (specify specific ports to scan, e.g., 21, 22, 445, 80, 443) -b (specify an IP range/network to scan).
+Next, determine the purpose of each open port by researching online or consulting network documentation.
+In your PTT, provide a summary of your findings regarding open ports and services on the target machine. Your response should be in JSON format.

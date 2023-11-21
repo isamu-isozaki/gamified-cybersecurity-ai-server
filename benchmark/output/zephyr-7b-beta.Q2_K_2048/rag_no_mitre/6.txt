@@ -1,0 +1,2 @@
+
+Generate according to: Write a Python script that takes two lists as arguments, removes duplicate elements from both lists, and returns a new list containing only the unique elements that appear in either of the original lists. The script should be well-documented with clear variable names and follow PEP8 style guidelines. It should also include error handling to account for cases where the input arguments are not lists or contain non-iterable elements.

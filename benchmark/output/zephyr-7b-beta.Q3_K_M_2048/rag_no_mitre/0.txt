@@ -1,0 +1,5 @@
+. The OS seems to be Windows Server (version 2008 R2) based on a banner grab and a version request. 443 and 80 are open, as determined by a port scan.
+- A local user account called "sysadmin" exists, as revealed by enumerating SAM accounts against the domain controller.
+- There is a shared folder at \10.23.42.434\data . Access restrictions are fairly permissive (everyone has read and write access) but authentication is still required.
+
+Based on the passage above, How can we access the shared folder mentioned in the target information using our privileged account?

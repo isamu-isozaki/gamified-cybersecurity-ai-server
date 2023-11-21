@@ -1,0 +1,1 @@
+ the findings from running curl commands against 10.10.11.239 and codify.htb, including any potential security implications. Use technical terminology and provide specific details where possible.

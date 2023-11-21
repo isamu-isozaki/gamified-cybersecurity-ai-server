@@ -1,0 +1,9 @@
+
+    - Enumeration - [to-do]
+        - Identify operating system - (completed)
+        - Discover installed software and services - (to-do)
+        - Identify user accounts and groups - (to-do)
+    - Post-Exploitation - [to-do]
+        - Move laterally within the network - (to-do)
+        - Carve out a foothold on the target machine - (to-do)
+Note: You will not be conducting any actual post-exploitation or other steps in this test. This is just a simulation for certification purposes.

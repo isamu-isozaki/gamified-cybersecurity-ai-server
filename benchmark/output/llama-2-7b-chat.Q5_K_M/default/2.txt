@@ -1,0 +1,8 @@
+
+ - Vulnerability Assessment - [to-do]
+    - Use Nmap to identify potential vulnerabilities - (to-do)
+    - Exploit identified vulnerabilities - (to-do)
+ - Compromise and Post-Exploitation - [to-do]
+    - Use Metasploit to automate exploitation - (to-do)
+    - Install backdoors or other post-exploitation tools as desired - (to-do)
+Please let me know how you would complete the todo list based on the information provided.

@@ -1,0 +1,3 @@
+, and has ports open for HTTP (80), SSH (22), and RDP (3389). The OS is Windows 10 Enterprise.
+The goal of this tree is to document the steps taken to gather information about the target machine, including open ports and services, as well as overall system architecture and software versions.
+Please provide me with the desired completion status for each node, and I will update the tree accordingly.

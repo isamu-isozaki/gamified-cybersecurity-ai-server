@@ -1,0 +1,13 @@
+
+        - Identify any known vulnerabilities in the services discovered - (to-do)
+    - Install and configure backdoors - (to-do)
+        - Choose a suitable backdoor - (to-do)
+        - Configure the backdoor for remote access - (to-do)
+        - Test the backdoor to ensure it is functional - (to-do)
+    - Maintain access - (to-do)
+        - Regularly check for updates to the system and applications - (to-do)
+        - Apply security patches as necessary - (to-do)
+        - Monitor logs for suspicious activity - (to-do)
+
+Please provide a detailed PTT for each step.
+Note: The target machine is a Windows 10 Pro system, and the goal of the test is to gain persistence on the system for future use.

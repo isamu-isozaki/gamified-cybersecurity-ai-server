@@ -1,0 +1,47 @@
+.
+It has a single NIC with IP address 192.168.33.33.
+There are open ports for HTTP, HTTPS, SSH, and SMTP.
+All services on this machine are running the Windows operating system.
+The organization's domain name is example.com.
+This is a single-tenant virtual machine with no other tenants.
+It has been in production use for the last two weeks.
+There have been no security patches applied to this machine since its creation three months ago.
+Prior to that, it was used as a development environment.
+Root and local administrator passwords are both "password1".
+Administrative shares can be accessed without credentials.
+You may assume the following:
+HTTP is running on port 80.
+HTTPS is running on a custom SSL port (default for this web server software).
+SMTP is being used, but not exim, postfix, or sendmail.
+SSH access is allowed from a known set of IP addresses and has been audited in the past month.
+All other ports are closed.
+The only software running on the machine is IIS, with no known vulnerabilities (currently unpatched).
+There is a single Windows user account named "pentester", which can be used to authenticate to this machine via SSH or RDP.
+This is a test environment for the development team, and all test data has been deleted.
+This is a staging environment for the development team, and all test data has been deleted.
+Live production data is present, but encrypted and access controlled by the "pentester" user account (which has full admin privileges).
+Any other assumptions you would like to make may be added as needed. The PTT is constructed using:
+class TreeNode:
+    def __init__(self, data, completion_status="todo"):
+        self.data = data
+        assert completion_status in ["todo", "inprogress", "done"]
+        self.completion_status = completion_status
+        self.children = []
+    def add(self, child):
+        self.children.append(child)
+
+
+root = TreeNode("Pentesting")
+recon = TreeNode("Reconnaissance")
+passive_info_gathering = TreeNode("Passive Information Gathering", "done")
+active_info_gathering = TreeNode("Active Information Gathering", "done")
+identify_open_ports = TreeNode("Identify Open Ports and Services")
+identify_open_ports.add(TreeNode("Perform a full port scan"))
+identify_open_ports.add(TreeNode("Determine the purpose of each open port"))
+recon.add(passive_info_gathering)
+recon.add(active_info_gathering)
+recon.add(identify_open_ports)
+root.add(recon)
+The below is the target information:
+The machine is at IP address 10.23.42.434. It has a single NIC with IP address 192.168.33.33. There are open ports for HTTP, HTTPS, SSH, and SMTP. All services on this machine are running the Windows operating system. The organization's domain name is example.com. This is a single-tenant virtual machine with no other tenants. It has been in production use for the last two weeks. There have been no security patches applied to this machine since its creation three months ago. Prior to that, it was used as a development environment. Root and local administrator passwords are both "password1". Administrative shares can be accessed without credentials. HTTP is running on port 80. HTTPS is running on a custom SSL port (default for this web server software). SMTP is being used, but not exim, postfix, or sendmail. SSH access is allowed from a known set of IP addresses and has been audited in the past month. All other ports are closed. The only software running on the machine is IIS, with no known vulnerabilities (currently unpatched). There is a single Windows user account named "pentester", which can be used to authenticate to this machine via SSH or RDP. This is a test environment for the development team, and all test data has been deleted. This is a staging environment for the development team, and all test data has been deleted. Live production data is present, but encrypted and access controlled by the "pentester" user account (which has full admin privileges). Any other assumptions you would like to make may be added as needed.
+How does the given information about the target machine affect the pentesting process? What steps should be taken during the reconnaissance phase?

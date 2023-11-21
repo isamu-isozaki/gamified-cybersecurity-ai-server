@@ -1,0 +1,5 @@
+, and it runs Apache/2.4.6 (CentOS) server at port 80.
+It also has MySQL version 5.7.19 installed on the server.
+After enumeration reconnaissance, we have a list of open ports: 22(SSH), 80 (HTTP), and 443 (HTTPS).
+We are now in the stage where we need to perform network mapping. Since there is an open web server, it would be best to start with Web Application Assessment.
+It's time to test some vulnerabilities and exploit them to achieve our objectives. Based on the passage above, What steps should be taken in the Web Application Assessment stage after identifying the open HTTP port during reconnaissance?

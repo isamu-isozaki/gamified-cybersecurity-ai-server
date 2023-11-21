@@ -1,0 +1,2 @@
+
+In your function, you need to write a recursive binary search algorithm that takes a sorted array (list) of integers as input and searches for a specific target integer. Your implementation must return the position of the target element in the array or -1 if it is not found. You should also handle edge cases such as empty arrays or duplicate elements in the list. Use clear variable names and comments where necessary to make your code easily understandable by other developers.

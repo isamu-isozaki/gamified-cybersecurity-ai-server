@@ -1,0 +1,2 @@
+ and has a default Gateway of 192.168.1.1. It has a web server running on port 80 and a database server running on port 5432. The web server is configured to serve files from the /var/www directory, which contains several PHP pages with sensitive data.
+Please generate PTT for this target using the instructions provided above.

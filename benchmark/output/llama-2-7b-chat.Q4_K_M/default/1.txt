@@ -1,0 +1,3 @@
+ and has a hostname of "example.local". It has a single network interface with an IP address of 10.23.42.434/24 and there are no other devices on the network. The machine is running Windows 7 Professional and has the following services running:
+* Remote Desktop
+The tester would like you to perform a full port scan on the machine and identify the purpose of each open port. Please generate PTT based on the information provided using the template above.

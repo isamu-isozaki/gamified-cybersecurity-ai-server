@@ -1,0 +1,60 @@
+
+    - Scan for Vulnerabilities - (to-do)
+        - Use automated scanners - (to-do)
+        - Manually test for vulnerabilities - (to-do)
+    - Maintain a detailed log of all activity - (completed)
+ - Exploitation - [to-do]
+    - Identify exploitable vulnerabilities - (to-do)
+    - Gain unauthorized access - (to-do)
+        - Use privilege escalation techniques to gain higher privileges - (to-do)
+    - Maintain stealth and avoid detection - (completed)
+    - Minimize damage and preserve evidence - (completed)
+ - Post-Exploitation - [to-do]
+    - Establish persistence - (to-do)
+        - Use tools to establish a persistent foothold on the system - (to-do)
+    - Collect intelligence - (to-do)
+        - Harvest sensitive data from the system - (to-do)
+    - Administer and maintain access - (to-do)
+        - Use techniques to manage and control the compromised system - (to-do)
+    - Cover your tracks - (completed)
+        - Remove evidence of your presence - (completed)
+    - Exfiltrate data - (completed)
+        - Transfer sensitive data out of the network - (completed)
+
+Here is a sample script to perform passive information gathering:
+
+```python
+import socket
+from datetime import timedelta
+from time import sleep
+
+# Define target IP address and subnet mask
+target_ip = "10.23.42.43"
+subnet_mask = "255.255.255.0"
+
+# Set up variables for storing results
+domain_names = []
+email_addresses = []
+organization_names = []
+device_names = []
+os_versions = []
+service_banners = {}
+
+# Define function to extract information from banner response
+def extract_information(response):
+    global domain_names, email_addresses, organization_names, device_names, os_versions, service_banners
+    
+    # Extract domain names
+    domain_names.extend(re.findall("([\w\-]+\.)[\w]{2,4}$", response))
+    
+    # Extract email addresses
+    email_addresses.extend(re.findall("[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", response))
+    
+    # Extract organization names
+    organization_names.extend(re.findall("Organization: (.*?)\n", response))
+    
+    # Extract device names
+    device_names.extend(re.findall("Device name: (.*?)\n", response))
+    
+    # Extract OS versions
+    os_versions.extend(re.

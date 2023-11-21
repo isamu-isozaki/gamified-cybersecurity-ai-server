@@ -1,0 +1,25 @@
+
+We will use Nmap or any other tool to perform an active network scan and then use the results to fill out this template.
+The "Identify Open Ports and Services" section is only about identifying open ports and determining what they might be for, not about performing any further exploitation steps.
+Let's say we have found that the machine at 10.23.42.434 has ports 21 (FTP), 22 (SSH), 80 (HTTP), 445 (Windows File Sharing) and 443 (HTTPS) open.
+We didn't find anything else.
+This is what our PTT looks like:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": "",
+            "Determine the purpose of each open port": {
+                "Port 21 (FTP)": "This appears to be a common FTP server used for file transfers.",
+                "Port 22 (SSH)": "It's not uncommon for SSH access to be restricted, but we will continue monitoring the system to see if anything else changes.",
+                "Port 80 (HTTP)": "We believe this is a web server used to serve websites or web pages.",
+                "Port 445 (Windows File Sharing)": "This appears to be a Windows File Sharing service, which could potentially allow us to access and modify files on the system.",
+                "Port 443 (HTTPS)": "We have not been able to determine an apparent use for this at this time.",
+            }
+        }
+    }
+}
+This information can be used by other parts of our penetration testing toolkit.
+
+ Based on the text material above, generate the following components of a pentesting process using Python: (i) passive information gathering, (ii) active information gathering, (iii) identification of open ports and services, and (iv) determination of the purpose of each open port. Ensure that your response is in the form of a valid Python dictionary.

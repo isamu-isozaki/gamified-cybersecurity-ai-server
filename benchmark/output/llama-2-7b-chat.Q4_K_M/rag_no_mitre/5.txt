@@ -1,0 +1,2 @@
+:
+The input content appears to be a security testing tool's output, indicating that an attempt was made to phish the user through an HTML injection attack. The tool used UTF-8 encoding to bypass the filter and execute the malicious code. The location of the attack is identified as 10.10.11.239, and the remaining content appears to be details of the attack.

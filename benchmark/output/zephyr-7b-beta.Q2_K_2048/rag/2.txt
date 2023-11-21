@@ -1,0 +1,26 @@
+
+    - Network Mapping - (to-do)
+    - OS Fingerprinting - (completed)
+    
+- Initial Access - [to-do]
+    - Select Initial Access Vector - (completed)
+        - Phishing Email - (failed)
+            - Create a spoofed email using Microsoft Outlook or any other Email Service Provider. Include the company's logo and use the same font and style as their email system to avoid suspicion from the user.
+            - Use an email tool such as PowerShell or Python to automate the process of sending mass emails to all users in your target organization. Make sure the email is well written, with clear calls-to-action and visually appealing.
+        - Brute Force Attack - (completed)
+            - Use a password cracking tool such as John the Ripper or Hashcat to determine weak passwords of targeted accounts.
+        - Manual Credential Harvesting - (failed)
+            - Perform social engineering on company employees to gather login credentials.
+    - Exploitation - (to-do)
+        - Select a vulnerability for the chosen product or application
+        - Use a Metasploit exploit module or create a custom attack tool to exploit the vulnerability.
+    
+- Post Exploitation and Privilege Escalation - [to-do]
+    - Establish Command and Control of the target device
+    - Perform Mimikatz to extract network credentials, hashes, and passwords for privileged accounts on the target system.
+    - Use a tool like PowerSploit or PowerShell to automate the process of creating and executing scripts on the target machine.
+    
+- Cleanup Activity - [to-do]
+    - Remove all traces of the attack from the target device, including user accounts, configuration changes, and temporary files.
+    - Erase any log entries generated during the attack to prevent detection by security personnel.
+    - Cover your tracks by deleting any evidence of your presence on the network.

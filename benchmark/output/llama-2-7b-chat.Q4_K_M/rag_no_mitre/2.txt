@@ -1,0 +1,10 @@
+
+    - Exploitation - (to-do)
+        - Identify exploitable vulnerabilities - (to-do)
+        - Attempt to exploit identified vulnerabilities - (to-do)
+    - Post-Exploitation - (to-do)
+        - Extract information from the compromised system - (to-do)
+        - Maintain access and continue post-exploitation activities - (to-do)
+
+
+As a certified penetration tester, your task is to conduct a security assessment of the target environment. You have been provided with the IP address of the machine, which you will use to gather information and perform tests. Your goal is to identify any vulnerabilities or

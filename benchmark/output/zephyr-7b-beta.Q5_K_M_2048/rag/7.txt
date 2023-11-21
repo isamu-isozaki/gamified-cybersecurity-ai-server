@@ -1,0 +1,19 @@
+ The following dictionary could be an example of your answer.
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": "todo",
+            "Determine the purpose of each open port": "todo",
+        },
+        "Scan Results (Nmap)": {
+            "21/tcp": "FTP",
+            "22/tcp": "SSH",
+            "80/tcp": "HTTP",
+            "139/tcp": "NetBIOS Session Service",
+            "443/tcp": "HTTPS",
+            "3306/tcp": "MySQL",
+        }
+    },
+}

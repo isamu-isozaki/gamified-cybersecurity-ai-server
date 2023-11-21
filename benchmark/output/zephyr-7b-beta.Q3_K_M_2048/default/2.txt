@@ -1,0 +1,30 @@
+
+    - Enumerate Users - (completed)
+    - Enumerate Groups - (completed)
+    - Discover Network Architecture - (completed)
+    - Identify Available Applications - (completed)
+        - Web Application Enumeration - (completed)
+        - Database Enumeration - (completed)
+ - Vulnerability Scanning - [to-do]
+    - Use a vulnerability scanner to scan the target - (to-do)
+        - Select appropriate settings for the scan - (to-do)
+    - Review scan results for high priority vulnerabilities - (to-do)
+        - Prioritize remediation efforts based on severity - (to-do)
+ - Exploitation - [to-do]
+    - Use available exploits to target identified vulnerabilities - (to-do)
+    - Confirm successful exploitation of high priority vulnerabilities - (to-do)
+        - If necessary, escalate privileges using techniques such as pass the hash or privilege impersonation - (to-do)
+    - Install a backdoor for persistent access - (to-do)
+        - Consider using a stealthy technique such as DNS tunneling or PowerShell Empire - (to-do)
+    - Establish command and control for the backdoor - (to-do)
+        - Use a C2 server hosted on a separate system outside of the target network to maintain operational security - (to-do)
+ - Post-Exploitation - [to-do]
+    - Collect sensitive data using available tools such as Mimikatz or BloodHound - (to-do)
+        - Focus on identifying high value targets and assets - (to-do)
+    - Exfiltrate the collected data to an external location - (to-do)
+        - Use a technique such as base64 encoding or DNS tunneling for stealth - (to-do)
+    - Cleanup and Cover Tracks - [to-do]
+        - Remove local evidence of your presence, such as logs or temporary files - (to-do)
+        - Disable any active backdoors or listeners - (to-do)
+    - Exit the system without arousing suspicion - (to-do)
+        - Use a technique such as disabling firewall rules to cover your tracks - (to-do)

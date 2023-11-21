@@ -1,0 +1,1 @@
+ the issue with accessing "http://codify.htb/" using cURL and suggest a possible solution.

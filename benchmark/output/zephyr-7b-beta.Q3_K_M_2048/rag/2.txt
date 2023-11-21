@@ -1,0 +1,72 @@
+
+        - Assess the potential impact of each service - (to-do)
+    - Mapping Network Devices and Identify System Fingerprinting - (completed)
+ - Initial Access Phase - [completed]
+    - Choose a method to gain access - (completed)
+    - Create a backdoor for lateral movement - (to-do)
+        - Use Metasploit or other tool to create the backdoor - (to-do)
+        - Hide the backdoor in a benign process or file - (to-do)
+    - Configure External Tools and Techniques - (to-do)
+        - Set up proxies, VPNs, and other tools - (to-do)
+    - Perform Initial Reconnaissance - (completed)
+        - Use enumeration techniques to gather information about the network - (completed)
+        - Identify system assets and critical data - (completed)
+        - Analyze logs and event data for suspicious activity - (to-do)
+    - Establish a foothold - (to-do)
+        - Create an initial shell or connection to the target - (to-do)
+        - Establish persistence mechanisms - (to-do)
+            - Use scheduled tasks, registry keys, or other methods to maintain access - (to-do)
+            - Hide the presence of persistence mechanisms using techniques like DLL hijacking and file replacement - (to-do)
+            - Test persistence mechanism and establish remote command execution capabilities - (to-do)
+            - Set up a means of communication with the attacker's infrastructure, such as an encrypted C2 server or IRC channel - (to-do)
+    - Prepare for Follow-On Phases - (completed)
+        - Determine potential follow-on attacks based on reconnaissance results and network data - (completed)
+        - Identify privileges needed to execute follow-on attacks - (to-do)
+        - Create a plan of action for each follow-on attack, including steps needed to escalate privileges, move laterally, or exfiltrate sensitive data - (to-do)
+        
+
+Now that the initial access phase is complete, let's move on to the next phase:
+
+ - Establish Command and Control - [to-do]
+    - Determine the best C2 method for the attacker's requirements and resources - (to-do)
+        - Consider factors such as communication speed, data encryption, and network security - (to-do)
+    - Set up a covert C2 server or channel using methods such as IRC, HTTP(S), or DNS tunneling - (to-do)
+        - Use Metasploit or other tool to create the C2 server - (to-do)
+        - Configure encryption and obfuscation techniques - (to-do)
+        - Choose a communication protocol based on network security restrictions - (to-do)
+    - Create a means of encrypted communication between the target and the C2 server or channel - (to-do)
+        - Use SSL or TLS encryption to secure communications - (to-do)
+        - Configure the C2 server to accept incoming connections from the target - (to-do)
+    - Establish command and control capabilities using tools like metpreter, psexec, or powershell - (to-do)
+        - Use Metasploit or other tool to create the necessary scripts or commands - (to-do)
+        - Configure persistence mechanisms for each command - (to-do)
+    - Test C2 server and communication capabilities - (to-do)
+        
+
+With the command and control phase complete, let's move on to data exfiltration:
+
+ - Data Exfiltration Phase - [to-do]
+    - Determine what data is of interest to the attacker - (completed)
+        - Review reconnaissance results for sensitive data locations - (completed)
+        - Identify data types and formats that may be valuable to the attacker - (completed)
+    - Choose a method of exfiltration based on available resources and network security restrictions - (to-do)
+        - Consider factors such as data size, transmission speed, and encryption requirements - (to-do)
+    - Prepare for the Exfiltration Process - (to-do)
+        - Create scripts or commands to automate exfiltration - (to-do)
+        - Configure data encryption and obfuscation techniques - (to-do)
+        - Set up a means of data compression for efficient transmission - (to-do)
+    - Test the Exfiltration Process - (to-do)
+        
+
+Finally, let's wrap up the test by cleaning up and covering our tracks:
+
+ - Cleanup Phase - [to-do]
+    - Remove all traces of the attacker's presence from the target - (to-do)
+        - Use techniques such as registry key deletion, file replacement, and process termination to hide evidence of the attacker's activities - (to-do)
+        - Configure scripts or commands to automate cleanup tasks - (to-do)
+    - Delete all logs and event data related to the attack - (to-do)
+        - Use techniques such as log file modification, deletion, or encryption to cover tracks - (to-do)
+    - Terminate all connections to the C2 server or channel - (to-do)
+        
+
+Note that throughout this test, it's essential to follow best practices for social engineering and privilege escalation. Use techniques such as phishing emails, password cracking, and exploitation of software vulnerabilities to gain access and privileges where necessary. Remember to continuously assess the target network for new opportunities and adjust tactics accordingly.

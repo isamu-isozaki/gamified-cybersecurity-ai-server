@@ -1,0 +1,5 @@
+.
+It runs Windows Server 2016 Standard Edition Version 1409.
+The server name is SERVER-APP01.
+The organization is Acme Corporation with a website at www.acmecorp.com.
+The email address of the administrator is admin@acmecorp.com. Based on the passage above, Can you explain the concept of passive and active information gathering in penetration testing, and how they are implemented using TreeNode class?

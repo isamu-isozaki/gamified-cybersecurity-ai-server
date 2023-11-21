@@ -1,0 +1,42 @@
+, running Windows Server 2019, with Apache/Tomcat installed and serving a simple web page at http://10.23.42.434/. The server has no firewall in place to prevent unauthorized connections. 
+
+Passive Information Gathering:
+- Nslookup reveals the DNS records for the IP address. The name of the machine is server01.company.com.
+- Ping reveals that the machine responds to requests, and its packet loss rate is 0%.
+- Whois records show that the domain is registered to a company called XYZ Corporation located in California, USA.
+
+Active Information Gathering:
+- Scanning with NMAP identifies the open ports on the machine; port 80 (HTTP) and 443 (HTTPS).
+- Banner grabbing reveals that Apache is running on port 80, and Tomcat on port 443. The HTTP request for the homepage returns a simple webpage that appears to be hosted by XYZ Corporation.
+- Performing a DNS cache poisoning attack on the server does not produce any significant results, as it does not appear to be vulnerable to this type of attack.
+
+Identify Open Ports and Services:
+To identify open ports and services, we will use NMAP with the following command:
+
+nmap -p 1-65535 10.23.42.434
+
+This scan will take a long time to complete, as it is scanning all possible ports (1-65535). During this scan, NMAP is using SYN stealth scanning, which makes it less likely to be detected by intrusion detection systems (IDS) or firewalls. After the scan completes, we can view the results:
+
+Starting a SYN Steath Scan against 10.23.42.434...
+SYN Stealth Scan Timing: Probable RTT 6.79 ms, Duration 50000 ms
+Completed SYN Stealth Scan at Thu Apr 22 20:08:11 2021, .
+Nmap scan report for 10.23.42.434 (server01.company.com)
+Host is up (0.057s latency).
+Not shown: 998 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+135/tcp   filtered ms-wbt-server
+137/tcp   filtered netbios-ns
+139/tcp   filtered netbios-ss
+443/tcp   open  https
+3260/tcp  filtered ftpxd
+3306/tcp  filtered mysqlx
+5486/tcp  filtered kpasswd
+5900/tcp  filtered vnc-acp
+6000/tcp filtered x11-admin
+
+From the results, we can see that there are several open ports on the machine. Apart from HTTP(80) and HTTPS(443), we have SSH(22), RPCbind(111), MS-WBT-Server(135), NetBIOS-NS(137), NetBIOS-SS(139), MySQLx(3306), KPasswd(5486), VNC-ACP(5900), and X11-Admin(6000).
+
+Next, we can determine the purpose of each open port. This will involve researching the services associated with each port number, as well as any

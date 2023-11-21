@@ -1,0 +1,7 @@
+ and has the hostname of testmachine. It runs Red Hat Enterprise Linux release 7 (Maipo) and its operating system version number is 3.10.0-693.el7.x86_64.
+The Web server is running Apache/2.4.29 (centos) with the Server version being 2.4.29 but has not been configured to display a version banner. The latest patch level is: [ModSecurity] [core:WARNING] Loading Dynamic Module c:/modsecurity_crs_3.0_minimal/.so
+and Apache/2.4.29 (centos) Server at testmachine.com Port 80.
+The Web server uses the Apache/2.4.29 (centos) with the Server version being 2.4.29 Server and has been configured to serve content from /var/www/html. The last modified date of index.html is Wednesday, 16-Aug-2017 13:15:45 GMT.
+This is a Linux server and the operating system version number is 3.10.0-693.el7.x86_64. Kernel last patched on Wed Aug 16 16:52:01 2017 UTC. The system uptime is 0 days, 0 hours, 1 minutes, and 44 seconds.
+The server has the time zone America/Chicago. The server's software includes OpenSSL 1.0.1e-fips 11 Feb 2013, the last patch level being: [ModSecurity] [core:WARNING] Loading Dynamic Module c:/modsecurity_crs_3.0_minimal/.so and PHP version 5.4.16 (cli) (built: Apr  8 2015 23:17:25).
+The Web root directory is /var/www/html. The Apache Server DocumentRoot is "/var/www/html". Based on the passage above, Can you generate a tree structure for a pentesting project based on the provided template, and include information about open ports and software versions discovered during reconnaissance?

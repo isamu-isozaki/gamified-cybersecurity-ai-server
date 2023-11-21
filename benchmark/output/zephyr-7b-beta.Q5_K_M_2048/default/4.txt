@@ -1,0 +1,1 @@
+ the findings of the security testing tool regarding the HTTP request to http://codify.htb/.

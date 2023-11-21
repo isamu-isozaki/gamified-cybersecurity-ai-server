@@ -1,0 +1,7 @@
+
+    - Determine the Operating System and Application - (completed)
+    - Determine the Network Architecture - (completed)
+    - Identify Potential Security Vulnerabilities - (completed)
+    - Prioritize and Document Findings - (to-do)
+
+Please follow the instructions in the tester's note to complete the PTT tasks.

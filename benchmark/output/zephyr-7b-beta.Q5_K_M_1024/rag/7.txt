@@ -1,0 +1,23 @@
+ 
+Based on the given instructions, here's the PTT:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": False,
+            "Determine the purpose of each open port": False,
+            "Port 21 (FTP)": "Data transfer",
+            "Port 22 (SSH)": "Remote access",
+            "Port 23 (Telnet)": "Remote access",
+            "Port 25 (SMTP)": "Email server",
+            "Port 80 (HTTP)": "Web server",
+            "Port 111 (RPCBind)": "RPC binding",
+            "Port 143 (IMAP)": "Email access",
+            "Port 389 (LDAP)": "Directory services",
+            "Port 443 (HTTPS)": "Secure web server",
+            "Port 631 (CUPS)": "Print server",
+            "Port 993 (IMAPS)": "Secure email access"
+        }
+    }
+}

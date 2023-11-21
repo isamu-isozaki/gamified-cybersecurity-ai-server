@@ -1,0 +1,37 @@
+ and it is running Windows Server 2019 Datacenter Edition with port 445 open.
+- [ ] Passive Information Gathering
+    - [x] DNS records (MX, NS, TXT)
+        - A record 10.23.42.434
+        - CNAME _msdcs._tcp.example.com.
+        - DNAME _defs.example.com. IN DNSKEY
+        - HINFO Pentium(R), Windows_Server_2019_Datacenter_Edition
+    - [x] Whois information
+        - Domain Name: EXAMPLE.COM
+        - Registry Expiry Date: 2023-08-24T04:00:00Z
+        - Registrant Name: Example Inc.
+    - [x] Subdomains
+        - Secure, mail, autodiscover, and clientaccess
+    - [ ] Certificates
+        - Let's Encrypt SSL/TLS certificate for *.example.com issued by Let's Encrypt Authority X3
+- [x] Active Information Gathering
+    - [x] Nmap scan (-v -T4):
+        - 10.23.42.434 open tcp port 80 (http)
+        - 10.23.42.434 open tcp port 443 (https)
+        - 10.23.42.434 open tcp port 135 (msrpc)
+        - 10.23.42.434 open tcp port 139 (netbios-ssn)
+        - 10.23.42.434 open tcp port 389 (ldap)
+        - 10.23.42.434 open tcp port 636 (ldaps)
+        - 10.23.42.434 open tcp port 3268 (globalcat)
+        - 10.23.42.434 open tcp port 593 (globalcatx)
+        - 10.23.42.434 open tcp port 464 (kpasswd5)
+        - 10.23.42.434 open tcp port 49152-65535 (unknown)
+    - [x] Nmap scan (-sV):
+        - OS: Windows Server 2019 Datacenter Edition
+        - CPE: cpe:/o:microsoft:windows_server:2019:datacenter-sp0
+        - Service Info: Active Directory Domain Services; Microsoft Exchange Server; MS SQL Server 2017 (SQLServer); Microsoft SharePoint Server 2016 SP1
+        - Product: Microsoft Windows Server 2019 Datacenter Edition
+    - [x] Nmap scan (-A):
+        - Nmap scan report for 10.23.42.434
+        ...
+        |user|>
+This is a great start, but can you add more details about the Active Information Gathering section? Specifically, can you include information on any open network services and their version numbers?

@@ -1,0 +1,6 @@
+, running Windows Server 2016.
+Open ports include HTTP (80), HTTPS (443), and SSH (22).
+The web server is Apache version 2.4.18.
+SSH version is OpenSSH_7.9p1.
+
+Based on the target information provided, generate a PTT based on the provided TreeNode template, focusing specifically on identifying open ports and determining their purposes. The PTT should follow the structure of the TreeNode hierarchy and include relevant steps and details.

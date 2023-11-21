@@ -1,0 +1,2 @@
+ the key points from the input content you provided, including any relevant information about servers, ports, protocols, or other interesting details:
+Summary: The input content appears to be a web page with a HTTP status code of 301 Moved Permanently, indicating that the document has moved to a new location. The new location is specified in the HTTP headers, and the webpage also includes an address section with server information. Additionally, there are some interesting details such as the use of curl command to access the webpage and a potential DNS resolution issue.

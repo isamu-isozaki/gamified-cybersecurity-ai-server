@@ -1,0 +1,2 @@
+
+Please provide a PTT that indicates which ports are open on this machine, as well as the specific services running on each port.

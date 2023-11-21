@@ -1,0 +1,32 @@
+, and you are able to ping it. You can also log into it using RDP. The initial scan shows that there are a number of services running on various ports.
+
+
+| PORT    | SERVICE           | STATE   |
+|----------|------------------|---------|
+| 21       | FTP             | Open    |
+| 22       | SSH            | Open    |
+| 3306   | MySQL        | Open    |
+| 80       | HTTP (Apache) | Open    |
+| 443      | HTTPS         | Open    |
+| 1433     | PostgreSQL   | Open    |
+| 5901    | VNC          | Open    |
+| 81        | DHCP           | Open    |
+| 992    | VNC Login   | Open    |
+
+
+Let's start with gathering passive information. As the machine is accessible via RDP, we will also check for any open RDP sessions and the status of Windows updates.
+
+1.1 Passive Information Gathering - (completed)
+
+- Google search: “10.23.42.434” - shows it's a company and their website
+- Reverse IP lookup - shows that this IP is located in New York, USA
+- Nslookup command: nslookup 10.23.42.434 tells us the Domain Name System (DNS) record for this IP address is blank.
+- MX record lookup: To determine the email system used by the organization, we can check the Mail Exchange (MX) records from the DNS of their website (http://107.245.035.003). We find that they are using Microsoft Office 365 for their mail system as the MX record points to outlook-com.onmicrosoft.com.
+- WHOIS lookup: The WHOIS database lists the company name and contact information, which can help us understand the type of organization running this machine. However, no such information is available since the details are hidden due to privacy.
+- Shodan.io search: Shodan is a search engine for finding internet connected devices. We search for this IP address on Shodan and find that it's currently online.
+- Scanning for open ports: To perform a full port scan, we use Nmap command: nmap -A 10.23.42.434. It shows that all services listed earlier are running.
+- Identify the Operating System: Using Nmap again, we issue the command: nmap -O 10.23.42.434 and find that it's running on Windows Server 2016.
+
+We can see this machine is running multiple services, some of which are critical to the company. Based on the organization's type, we can assume a possible phishing email or an unpatched vulnerability in one of these services could put the whole network at risk.
+
+In the next level, active information gathering, we will attempt to enumerate user accounts and determine which domain they belong to. As a precautionary measure, we will also verify if there are any open RDP sessions or running processes that indicate a compromised machine, which could lead us to the attacker's identity.

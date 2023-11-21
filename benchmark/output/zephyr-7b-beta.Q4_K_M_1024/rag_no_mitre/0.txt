@@ -1,0 +1,30 @@
+. It has two network interfaces, eth0 and eth1. Eth0 uses IP address 10.23.42.43 and subnet mask 255.255.255.0. Eth1 has an IP address of 192.168.1.100 and subnet mask 255.255.255.0.
+Your script should output something like:
+Pentesting
+   Reconnaissance
+      Passive Information Gathering (done)
+      Active Information Gathering (done)
+         Perform a full port scan
+         Determine the purpose of each open port
+   Identify Open Ports and Services
+
+I have created a Python script that generates this output based on the TreeNode class and its methods. Here's how you can use it:
+
+```python
+# To print the entire tree in order
+root.traverse_preorder()
+print()
+
+# To print all leaf nodes (nodes with no children)
+for node in root.get_leaf_nodes():
+    print(node)
+
+# To search for a specific node and print it
+search_result = root.search("Determine the purpose of each open port")
+if search_result:
+    print(search_result.data)
+```
+
+The `traverse_preorder()` method is called to print the entire tree in pre-order traversal, which means visiting the node first and then its children if it has any. The `get_leaf_nodes()` method returns all leaf nodes (nodes with no children) recursively. This can be useful for tasks like generating a report of only the completed tasks. Finally, you can search for a specific node by using the `search()` method.
+
+Note that since this is just an example, there's room for improvement in terms of error handling and making it more user-friendly. But it should give you an idea of how the TreeNode class and its methods could be implemented to create a tree structure in Python.

@@ -1,0 +1,6 @@
+
+    - Vulnerability Scanning - (to-do)
+        - Use Nmap to scan for common vulnerabilities - (to-do)
+        - Use Metasploit or another tool to perform a detailed vulnerability assessment - (to-do)
+
+Note: The tester has already completed passive information gathering and active information gathering. However, they still need to identify open ports and services by performing a full port scan and determining the purpose of each open port. They also need to perform vulnerability scanning using Nmap to scan for common vulnerabilities and Metasploit or another tool to perform a detailed vulnerability assessment. These steps are necessary to fully understand the network environment and potential security risks associated with the target machine.

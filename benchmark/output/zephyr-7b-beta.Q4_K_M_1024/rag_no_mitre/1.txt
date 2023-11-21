@@ -1,0 +1,35 @@
+8 and the subnet netmask is 255.255.255.0. This network uses the 10.23.x.x scheme. The IP range is 10.23.0.1 - 10.23.254.254.
+
+The hostname is not set.
+
+The operating system is Windows Server 2012 R2 Datacenter.
+
+The system time zone is America/Chicago.
+
+The TCP stack is using the current RFC1323 standard for timestamping.
+
+The device is running the Microsoft IIS web server version 10.0. The web server has registered 5 IP addresses (10.23.42.43, 10.23.42.44, fe80::cfe3:f8ff:fee9:76ee%, fe80::cfe3:f8ff:fee9:76ef%, ::).
+
+The device is running the Microsoft SQL Server 2014 SP2.
+
+The system account control level (SACL) is set to Local Security Authority (Local SAM).
+
+The time zone is America/Chicago.
+
+I am unable to determine any active services running on this host besides HTTP, MS-RDS-Protocol, RPC, and SMB at this time. I will continue enumerating the service on the device.
+
+Next, I will perform passive information gathering techniques to further enrich my knowledge of this device's environment.
+2. Discovery - [in progress]
+   2.1 Network Enumeration - (to-do)
+       2.1.1 Identify IP addresses and subnet information - (completed)
+           2.1.1.1 Use the arp utility to identify hosts on the local network - (completed)
+           2.1.1.2 Ping scan the entire range of the network to confirm that all discovered devices can be reached - (to-do)
+           2.1.1.3 Use Nmap to build a detailed picture of the entire network and its associated hosts - (in progress, 65% complete)
+       2.1.2 Identify Network Devices - (to-do)
+           2.1.2.1 Use the ping utility to discover active devices on the local network - (completed)
+           2.1.2.2 Use the DNS server(s) to identify other hosts using reverse lookups - (in progress, 0% complete)
+   2.2 Service Identification and Banner Grabbing - (to-do)
+       2.2.1 HTTP Server Identification - (completed)
+           2.2.1.1 Use the http headers to identify web servers - (completed)
+       2.2.2 FTP Server Banner Grabbing - (in progress, 0% complete)
+           2.2.2.1 Use telnet

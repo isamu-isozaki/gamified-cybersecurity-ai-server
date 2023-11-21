@@ -1,0 +1,1 @@
+ the security testing tool's findings and suggest further guidance for a senior penetration tester. Use clear, concise language and provide specific examples where possible.

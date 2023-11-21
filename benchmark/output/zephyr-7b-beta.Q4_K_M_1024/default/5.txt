@@ -1,0 +1,1 @@
+ a security testing tool's output that lists all the interesting points for further guidance by a senior penetration tester. The input content should be from a telnet session to an IP address on port 3000.

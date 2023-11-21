@@ -1,0 +1,17 @@
+ and has TCP ports 22, 80, and 443 open. The operating system is Windows Server 2019, version 1709. The web server running on port 80 is Apache/2.4.46 (Win64). No firewall or intrusion detection system (IDS) was detected during the scan.
+
+During active information gathering, the tester noticed that the machine is connected to a domain called mydomain.com and that there are several shared folders accessible over SMB. The login page for the web application running on port 443 appears to be vulnerable to SQL injection attacks.
+
+The user accounts present in Active Directory include:
+- Administrator (disabled)
+- TestUser1 (enabled, password last changed March 2021)
+- TestUser2 (enabled, password last changed January 2022)
+- ServiceAccount1 (enabled, no password change history)
+- ServiceAccount2 (disabled, password last changed April 2021)
+
+The target machine also has several network shares that are accessible from the local network:
+- \\mydomain.com\sharename1 (shared by Administrator with Full Control permissions)
+- \\mydomain.com\sharename2 (shared by TestUser1 with Read/Write permissions)
+- \\mydomain.com\sharename3 (shared by ServiceAccount1 with Full Control permissions)
+
+The PTT should include the plan for exploiting the SQL injection vulnerability, obtaining credentials through pass-the-hash or pass-the-ticket techniques, and accessing the shared folders using SMB protocol. Please provide detailed instructions on each step of the attack, including command lines, tools, and potential obstacles to consider. Additionally, please suggest a timeline for executing the PTT and any necessary precautions to avoid detection by the target organization's security measures.

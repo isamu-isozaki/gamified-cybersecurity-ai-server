@@ -1,0 +1,7 @@
+ the following information:
+
+Interesting points from the input content include:
+
+* The input content appears to be a web page with a 301 Moved Permanently status code, indicating that the requested resource has been moved to a new location.
+* The new location is provided in the response header, which includes an URL for codify.htb.
+* The output suggests that there may be additional content available at this URL, including an address section with details about the server hosting the content.

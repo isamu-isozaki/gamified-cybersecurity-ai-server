@@ -1,0 +1,6 @@
+
+The script will print out all open ports & services on the target (IP address) using Nmap. If your target is a Windows machine, please use the PowerShell equivalent below.
+Once the nmap command gets executed, you need to extract all open ports (22, 80 etc.) and their corresponding service names (SSH, HTTP, FTP etc.). After that, update the dictionary as shown above.
+Note: If the target machine is Windows, then use Powershell's Test-Connection command to ping the target IP address first. Also, please replace "user" with your own user credentials in the Nmap script below.
+Note: Replace 10.23.42.434 with your actual target IP. Also, replace user and password with your actual system credentials.
+Next, run the nmap command to scan all open TCP/UDP ports on the target. Based on the passage above, How do I update the Python dictionary provided in the text material to show all the open ports and their corresponding service names for a Windows machine using PowerShell?

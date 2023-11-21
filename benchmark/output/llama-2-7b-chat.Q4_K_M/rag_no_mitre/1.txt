@@ -1,0 +1,5 @@
+3, which is on a private network behind a firewall. The target is an FTP server with no login credentials available. You are tasked to perform a passive OS detection scan to identify the operating system of the FTP server. Can you help me with that?
+
+
+
+Please provide the PTT for the above information.

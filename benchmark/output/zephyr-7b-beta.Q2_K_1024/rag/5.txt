@@ -1,0 +1,1 @@
+ the findings of a security testing tool, including any interesting points identified and potential next steps for further guidance. Use clear and concise language suitable for reporting to a senior penetration tester. Provide specific examples and avoid technical jargon where possible.

@@ -1,0 +1,4 @@
+, running Ubuntu Linux.
+The goal of the test is to identify open ports and services on the target system using passive and active recon techniques. The tester has already identified the IP address of the target system.
+The tester wants to perform a full port scan and determine the purpose of each open port.
+For active information gathering, the tester wants to use a tool such as Nmap to scan for open ports and services on the target system. The tester also wants to use Metasploit to identify exploitable services and vulnerabilities on the target system.

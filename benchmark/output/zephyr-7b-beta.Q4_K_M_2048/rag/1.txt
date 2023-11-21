@@ -1,0 +1,18 @@
+, with hostname target.example.com (this is a sample domain). The operating system is Linux Ubuntu 18.04 LTS.
+The following open ports are detected:
+- 22 (SSH)
+- 80 (HTTP)
+- 443 (HTTPS)
+
+I want to perform the following steps:
+
+1. Scan for active SSH sessions using netstat and identify the user logged in, as well as any processes running under that user. (to-do)
+2. Determine if the SSH service is running with root privileges, as well as other privileged services (such as sudo or cron jobs). (to-do)
+3. Check for any open listening ports besides the ones previously identified using netstat -lpn. (to-do)
+4. List current processes running on the machine and identify any suspicious processes based on their names, paths, and user IDs (UIDs). (to-do)
+5. Retrieve a list of all scheduled tasks using crontab and identify any unusual or unexpected tasks. (to-do)
+6. Check for any active network connections, including both incoming and outgoing connections, using netstat -anp. (to-do)
+7. Identify any suspicious files or directories on the machine by checking for any recently created or modified files, as well as directories with unusual permissions or ownerships. (to-do)
+8. Check for any backdoors or malware installed on the machine using tools such as rkhunter and chkrootkit. (to-do)
+9. Identify any potential vulnerabilities in the web server software (such as Apache or Nginx) by checking for any outdated versions or known security issues. (to-do)
+10. Retrieve a list of all installed packages on the machine using apt-get and identify any unusual or unexpected packages. (to-do)

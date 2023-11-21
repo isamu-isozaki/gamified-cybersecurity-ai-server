@@ -1,0 +1,12 @@
+ and has the following services running:
+
+| Service | Port |
+| --- | --- |
+| HTTP | 80 |
+| HTTPS | 443 |
+| SMTP | 25 |
+| SSH | 22 |
+| FTP | 21 |
+| Telnet | 23 |
+
+Please generate the PTT based on this information.

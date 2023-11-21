@@ -1,0 +1,1 @@
+ the key points from a security testing tool output, highlighting any interesting findings for further investigation by a senior penetration tester. Use clear and concise language with relevant technical terms where necessary.

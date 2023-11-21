@@ -1,0 +1,2 @@
+ You can assume that the `TreeNode` class is provided for you, and it contains the attribute `value` with getter and setter methods (i.e., you don't need to define them). Also, do not include any other imports except for the `collections` module needed in part 3 of this challenge.
+How would you implement a binary tree data structure using Python and the `collections` module? What are some advantages of using this specific module?

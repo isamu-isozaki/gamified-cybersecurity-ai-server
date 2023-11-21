@@ -1,0 +1,42 @@
+
+Creating a Penetration Testing Template (PTT) requires a structured approach to document the steps you will take during the penetration test. Below is a template that you can use to document your progress in this scenario:
+
+Penetration Testing Template
+
+Reconnaissance
+1.1 Passive Information Gathering - (Completed)
+1.2 Active Information Gathering - (Completed)
+1.3 Identify Open Ports and Services - (To-Do)
+1.3.1 Perform a full port scan - (To-Do)
+1.3.2 Determine the purpose of each open port - (To-Do)
+Reconnaissance
+
+1.1 Passive Information Gathering - (Completed)
+
+Gathered information through publicly available resources, such as WHOIS, DNS records, and social media.
+1.2 Active Information Gathering - (Completed)
+
+Utilized tools like Nmap, Shodan, and Google Dorks to discover additional information about the target.
+Identified potential vulnerabilities and weak points.
+1.3 Identify Open Ports and Services - (To-Do)
+
+Conduct a comprehensive port scan to identify all open ports on the target machine.
+1.3.1 Perform a Full Port Scan - (To-Do)
+- Use Nmap or similar tools to scan all 65,535 ports on the target IP address (10.23.42.434).
+
+1.3.2 Determine the Purpose of Each Open Port - (To-Do)
+- Analyze the services running on each open port to identify their version and potential vulnerabilities.
+- Cross-reference the information with known vulnerabilities databases to find potential exploits.
+
+Initial Access
+2.1 Exploitation of Vulnerabilities - (To-Do)
+- Attempt to exploit identified vulnerabilities on open ports and services.
+- Note that this is not allowed in the simulation environment, so this step should not be performed.
+
+Post-Exploitation - (Not Permitted in Simulation)
+
+Documentation and Reporting
+
+Create a detailed report of the findings, including information on identified open ports, services, and potential vulnerabilities.
+Provide recommendations for improving security based on the results of the penetration test.
+Please remember that this template assumes you are following a structured approach to penetration testing. Ensure that you have proper authorization and are operating within the bounds of the law and any applicable rules and regulations. Additionally, note that in a simulation environment, you should not proceed with post-exploitation activities as they are not permitted.

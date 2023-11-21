@@ -1,0 +1,12 @@
+ You need to define the `add` method for your `BinaryTreeNode` class that allows adding a child node (which is itself a new instance of `BinaryTreeNode`) to the current node.
+Your code should create a binary tree for keeping information about a pentesting process, with the following structure:
+The root node should be called "Pentesting".
+A subnode called "Reconnaissance" should have three child nodes: "Passive Information Gathering", "Active Information Gathering", and "Identify Open Ports and Services". The first two child nodes should be completed ("done"), but the final child node should not.
+You can assume that all methods are called in the right order and from the correct parent object. In other words, when you define the `add` method for a child node, it is already connected to its parent.
+For example, using your code snippet, you could call:
+root.add(TreeNode("Vulnerability Scanning", "done"))
+and then:
+root.add(TreeNode("Penetration Testing", "done"))
+to create a full pentesting tree with the given structure and two additional child nodes for `root`. The resulting tree would have five completed nodes ("Pentesting", "Reconnaissance", "Passive Information Gathering", "Active Information Gathering", and one of the new nodes) and two more children that are not yet completed ("Identify Open Ports and Services" and another of the new nodes).
+When you create this tree, you should follow normal Python conventions: use descriptive variable names, separate components with underscores in mult-word names, put spaces around operators, and so on. Remember that we'll be executing your code directly, so there's no need to define a `main` function or call any functions explicitly.
+In what ways can the 'add' method of the BinaryTreeNode class be used to add child nodes into the current node in Python programming language? Provide an example usage of this method while creating a binary tree for keeping information about a pentesting process as mentioned in the text material.

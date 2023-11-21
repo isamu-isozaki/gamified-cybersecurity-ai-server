@@ -1,0 +1,1 @@
+ the findings obtained from using a security testing tool on the web application available at http://codify.htb/. Provide an overview of any potential vulnerabilities identified and outline any further action required to mitigate these issues. The report should be presented in a clear and concise manner, avoiding technical jargon where possible.

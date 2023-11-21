@@ -1,0 +1,9 @@
+ and is running Apache web server with version 2.2.22. The server appears to be running on Ubuntu Linux OS version 14.04.5 LTS (Trusty Tahr). The machine is also running MySQL version 5.6.25, as well as OpenSSH version 6.7p1.
+The web application "Website Builder" running on this server has an installation script that can be downloaded and executed locally. This script is located at http://10.23.42.434/installer.sh. It appears to be a shell script, with execute rights granted only to root users or the group "admin".
+The Apache web server logs are found in /var/log/apache2/, while MySQL database logs can be found at /var/log/mysql/. The SSH client-server communication logs are located in /var/log/auth.log.
+There is also a file named secrets.conf containing sensitive information that is stored in the following directory: /opt/websitebuilder/secrets/. This file is not protected by any access control mechanism, and can be read only by root users or members of the "admin" group.
+The system administrator's username is "johnsmith", and his home directory is located at /home/johnsmith. There are also two user accounts named "user1" and "user2". Both user accounts have a login shell set to bash, with a shell configuration file located at /home/[username]/.bashrc. It appears that each user has read-write access to their respective home directories, but no other directories or files on the system.
+The server's network traffic is being logged in the following directory: /var/log/syslog.
+I hope this information helps you with your PTT creation! Let me know if you need any further details or clarification.
+
+ Based on the passage above, what is the location of the sensitive file "secrets.conf" and who has read access to it?

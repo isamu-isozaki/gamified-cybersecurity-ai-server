@@ -1,0 +1,19 @@
+
+Below is an example of how to write your PTT based on the given information.
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": {
+                "Tool": "nmap -p- -sL -oA nmap_scan 10.23.42.43",
+                "Status": "in progress"
+            },
+            "Determine the purpose of each open port": {
+                "Tool": "nmap -p 21, 22, 445, 80, 443 -sV -oA nmap_scan 10.23.42.43",
+                "Status": "to do"
+            }
+        }
+    }
+}
+Once you have written your PTT, submit it back to us in the form of a text file (.txt). We will execute them, and you can review the results via our reporting tools.

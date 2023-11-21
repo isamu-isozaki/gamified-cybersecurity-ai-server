@@ -1,0 +1,15 @@
+Given Context: not follow the expected protocol behavior for the port that is being used. [ 7 ] references wikipedia. ( 2016, december 26 ). binary - to - text encoding. retrieved march 1, 2017. wikipedia. ( 2017, february 19 ). character encoding. retrieved march 1, 2017. settle, a., et al. ( 2016, august 8 ). monsoon - analysis of an apt campaign. retrieved september 22, 2016. reynolds, j.. ( 2016, september 14 ). h1n1 : technical analysis reveals new capabilities – part 2. retrieved september 26, 2016. anomali labs. ( 2018, december 6 ). pulling linux rabbit / rabbot malware out of a hat. retrieved march 4, 2019. proofpoint staff. ( 2016, august 25 ). nightmare on tor street : ursnif variant dreambot adds tor functionality. retrieved june 5, 2019. gardiner, j., cova, m., nagaraja, s. ( 2014, february ). command & control understanding, denying and detecting. retrieved april 20, 2016. [SEP]
+
+ Answer The target information is listed below. Please follow the instruction and generate PTT.
+Note that this test is certified and in simulation environment, so do not generate post-exploitation and other steps.
+You may start with this template:
+1. Reconnaissance - [to-do]
+   1.1 Passive Information Gathering - (completed)
+   1.2 Active Information Gathering - (completed)
+   1.3 Identify Open Ports and Services - (to-do)
+       1.3.1 Perform a full port scan - (to-do)
+       1.3.2 Determine the purpose of each open port - (to-do)
+Below is the information from the tester: 
+
+
+The machine is at IP address 10.23.42.434

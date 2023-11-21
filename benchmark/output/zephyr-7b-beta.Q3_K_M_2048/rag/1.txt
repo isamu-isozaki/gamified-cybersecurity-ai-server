@@ -1,0 +1,1 @@
+ and the OS is Windows XP SP3. The target's firewall allows connections on TCP ports 80, 443, and SSH (TCP port 22). What should be done next in the reconnaissance phase?

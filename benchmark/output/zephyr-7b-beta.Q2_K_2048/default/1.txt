@@ -1,0 +1,7 @@
+, and it has the following open ports with the corresponding services:
+
+    22/tcp (SSH)
+    80/tcp (HTTP)
+    443/tcp (HTTPS)
+
+Additional information gathered during reconnaissance includes the machine's hostname, dns name, operating system, and version of web server. This information can be used to determine the purpose of each open port and to craft targeted attacks or queries to the machine.

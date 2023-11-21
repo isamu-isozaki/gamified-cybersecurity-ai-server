@@ -1,0 +1,1 @@
+ the results of running curl commands against two different IP addresses, one resulting in a redirect and the other producing a resolution error.

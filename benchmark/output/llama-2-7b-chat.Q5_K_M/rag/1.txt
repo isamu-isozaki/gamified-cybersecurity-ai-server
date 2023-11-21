@@ -1,0 +1,12 @@
+ and has a reverse DNS entry of mydomain.com The target information includes:
+
+OS: Linux Ubuntu 18.04 LTS
+Service List:
+
+* SSH (open on port 22)
+* HTTP (open on port 80)
+* HTTPS (open on port 443)
+* FTP (open on port 21)
+* TFTP (open on port 69)
+
+Please generate the PTT for the given information based on the instructions provided.

@@ -1,0 +1,1 @@
+ what you have found from the output of `curl http://10.10.11.239:80` and `curl http://codify.htb/`. Based on this information, what would you like to investigate further?

@@ -1,0 +1,10 @@
+Sure, here's a possible PTT for the target information:
+root = TreeNode("Pentesting")
+recon = TreeNode("Reconnaissance")
+target_machine = TreeNode("Target Machine", "done")
+ip_address = TreeNode("IP Address", "done")
+ip_address.data = "10.23.42.434"
+target_machine.add(ip_address)
+recon.add(target_machine)
+root.add(recon)
+This PTT includes a node for the target machine with its IP address as a child node. The recon node has been updated to include the target machine node. The root node still contains the recon node as its child.

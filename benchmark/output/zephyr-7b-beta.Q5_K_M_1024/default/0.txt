@@ -1,0 +1,18 @@
+ and has a domain name of company.com. The organization's primary DNS server is 8.8.8.8, and secondary DNS server is 8.8.4.4.
+The organization uses Active Directory, and the domain is CORP.COM.
+The machine belongs to the OU called "Sales".
+The organization allows SSL VPN connections from the Internet on port 443.
+There are several Windows machines on the network running SQL Server.
+There are several Linux machines on the network running Apache and MySQL.
+The primary file server is called FS1, and it has a IP address of 10.23.56.89. There is also a secondary file server called FS2 with an IP address of 172.16.1.1.
+The organization's main website is accessible via HTTP on port 80 at www.company.com, and the SSL version is accessible via HTTPS on port 443 at secure.company.com.
+The organization allows remote desktop connections from the Internet on TCP port 3389 using RDP.
+The organization has a firewall on their perimeter network that blocks all incoming traffic except for management traffic (SSH, HTTP/HTTPS, SMTP, and DNS) and the VPN and RDP services I mentioned earlier.
+The organization uses Windows Server Update Services (WSUS) to manage software updates for their machines. The WSUS server is called wsus1 and has an IP address of 10.23.56.90.
+The organization's public key infrastructure (PKI) uses a certification authority (CA) named companyca.com, which is accessible via HTTPS on port 443 at companyca.company.com. The root CA has the serial number of C001 and was issued by VeriSign Class 3 Public Primary Certification Authority - G2.
+The organization uses Group Policy to manage Windows machines. Some policies are stored locally, but most policies originate from domain controllers in OU=Policies,DC=CORP,DC=COM.
+The network has a DMZ that is isolated from the corporate network, and there are several perimeter network segments for different departments (e.g., sales, marketing, engineering).
+The organization uses Virtual Private Networks (VPNs) to allow remote access to their resources. They use IPsec VPNs for site-to-site connections and SSL VPNs for user connections. The SSL VPN service is called AnyConnect, and it's accessible via HTTPS on port 443 at anyconnect.company.com.
+The organization uses a web application firewall (WAF) to protect their publicly facing applications. It's accessible via HTTP(S) on port 80/443 at waf.company.com.
+They have a data center in a co-location facility with the IP address range of 172.16.0.0/16. The organization uses BGP to advertise their routes to the Internet service provider (ISP).
+The main database server is

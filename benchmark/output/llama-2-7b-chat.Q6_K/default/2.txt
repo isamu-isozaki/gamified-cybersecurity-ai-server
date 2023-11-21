@@ -1,0 +1,9 @@
+
+      - Identify Remote Services - (to-do)
+          - Determine the purpose of each remote service - (to-do)
+ The machine has the following operating system:
+    Windows 10 Pro, version 21H1 (build 19043.762)
+The user account is "testuser" with password "testpassword".
+Target IP address: 10.23.42.434
+
+What do you need help with?

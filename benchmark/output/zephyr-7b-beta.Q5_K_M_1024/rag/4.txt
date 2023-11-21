@@ -1,0 +1,1 @@
+ the findings of the security testing tool output when executing curl against http://10.10.11.239:80 and then http://codify.htb/.

@@ -1,0 +1,9 @@
+
+
+Please include the following:
+
+1. Input data used for testing (in this case, the IP address and port number)
+2. The tool used to test the system (in this case, telnet)
+3. Summary of the output, including any interesting observations or potential vulnerabilities discovered during the test
+4. Recommendations for further testing or action based on the results of the test
+5. Any additional information that may be relevant to the senior penetration tester (such as the system being tested, the type of network being used, etc.)

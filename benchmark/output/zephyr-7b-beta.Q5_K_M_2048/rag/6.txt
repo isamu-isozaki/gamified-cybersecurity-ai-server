@@ -1,0 +1,10 @@
+
+You may assume that the TreeNode class already has methods to perform depth-first search (DFS) traversal and breadth-first search (BFS) traversal, which are implemented as instance methods of each node object. For example, if you named your derived class myTree, then you should be able to call node.myTree_dfs() or node.myTree_bfs() from any node in the tree.
+You may assume that the TreeNode class already has accessors and mutators for the parent pointer of each node. For example, if you named your derived class myTree, then you should be able to set node.parent = some_node or read node.parent as needed.
+The expected output should be:
+[10.23.42.434]
+Your code has to identify the target IP address and extract its value. The solution should be in form of a list (possibly with one element) that you can return or print. You may assume that an IP address is represented as a string in the format xxx.xxx.xxx.xxx, where each x represents any decimal digit from 0 to 9.
+If your code does not find the target IP address, then your output should be empty list []. Do not return or print anything else, such as strings saying "not found" or similar error messages.
+The test will check only the first occurrence of the target IP address in the tree. If there are multiple identical nodes representing the same IP address that you may encounter during your traversal, then you should still return the address of the first one encountered.
+For more information on what kind of trees are allowed for this test, please read the problem statement at https://www.hackerrank.com/challenges/tree-traversal/problem .
+To run your code, go to the "Run Tests" tab in the solution editor and press the "Start Running" button. If all tests pass, then your code is correct. Your code will be executed with time and memory limits. Based on the passage above, How can I identify the target IP address in a tree using Python's TreeNode class? What is the expected output format, and what should I do if the IP address is not found?

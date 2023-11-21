@@ -1,0 +1,1 @@
+ what ports were found to be open on the device with IP address 10.10.11.239 during a recent Nmap scan.

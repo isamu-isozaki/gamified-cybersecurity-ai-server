@@ -1,0 +1,38 @@
+
+    - Vulnerability Assessment - (to-do)
+        - Check for known vulnerabilities using tools like Nessus, OpenVAS or Retina - (to-do)
+        - Perform manual checks for known exploits and patches - (to-do)
+    - Network Mapping and Enumeration - (to-do)
+        - Map the network topology - (to-do)
+        - Identify potential targets and services - (to-do)
+    - Exploit Development - (in progress)
+        - Research potential exploits for identified vulnerabilities - (in progress)
+        - Develop and test exploits - (in progress)
+    - Privilege Escalation - (not yet started)
+        - Identify possible methods for privilege escalation - (not yet started)
+        - Test each method - (not yet started)
+    - Evidence Collection and Analysis - (to-do)
+        - Gather evidence of any security breaches or vulnerabilities - (to-do)
+        - Analyze the evidence to determine the extent of the breach - (to-do)
+
+Next, the tester will begin by performing a full port scan using Nmap. The following output is produced:
+
+Starting Nmap 7.01 ( https://nmap.org ) at 2018-05-08 09:46 PDT
+Nmap 7.01 -scan 10/23/42.43 
+
+This initial scan reveals that the machine has multiple open ports, including those for FTP (21), SSH (22), and RDP (3389). The tester will now identify the purpose of each open port using Nmap's service and version detection capabilities:
+
+Nmap scan report for 10.23.42.43 (Host 10.23.42.43)
+
+PORT STATE SERVICE
+80/tcp open http
+111/tcp open rpcbind
+135/tcp closed msrcp
+139/tcp open ms-wbt-server
+443/tcp open https
+3389/tcp open ms-rmdesktop
+21/tcp open ftp
+22/tcp open ssh
+445/tcp open ms-wbt-server
+
+Based on the results, it seems that the machine is running Windows Server 2008 R2 based on Nmap's identification of Microsoft services such as MS-WBT-Server and MS-RDCDESKTOP. The tester will now move forward with vulnerability assessment and network mapping using nmap and other tools.

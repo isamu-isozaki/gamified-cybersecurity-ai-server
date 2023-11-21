@@ -1,0 +1,11 @@
+ and has the following open ports:
+* Port 21 (FTP)
+* Port 80 (HTTP)
+* Port 443 (HTTPS)
+* Port 5672 (SSH)
+The attacker will perform a full port scan and determine the purpose of each open port. The attacker can use this information to plan their next steps in the attack.
+You can then add more nodes to the tree by calling the `add` method on the `TreeNode` objects, like this:
+identify_open_ports.add(TreeNode("Determine if any open ports are vulnerable to known exploits"))
+identify_open_ports.add(TreeNode("If so, attempt to exploit them"))
+ root.add(identify_open_ports)
+This will create a tree with the nodes representing the different steps in the attack and their dependencies. You can then use this tree to represent the attack

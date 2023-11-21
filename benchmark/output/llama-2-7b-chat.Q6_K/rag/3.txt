@@ -1,0 +1,3 @@
+ the following information, and provide your findings on what this scan reveals about the target system, and any potential security implications:
+What does Nmap show? Please include a summary of the scan results in 50 words or less.
+Nmap shows that the target system has open ports for SSH, HTTP, and PPP. These open ports could be exploited by attackers to gain unauthorized access to the system, conduct malicious activities, or monitor network traffic. The scan also reveals that the system is vulnerable to known security risks, which could lead to a successful attack. Therefore, it is essential to address these vulnerabilities and tighten the security of the target

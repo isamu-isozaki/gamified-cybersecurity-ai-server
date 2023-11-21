@@ -1,0 +1,14 @@
+. The target has only one active network service, which is HTTP on TCP/80. A full port scan was performed using nmap (option -p was used to only scan for open ports). The output of the scan can be seen below:
+
+```
+Starting Nmap 6.47 ( http://nmap.org ) at [time]
+Nmap scan report for [target IP address]
+Host is up (0.013s latency).
+Notice: Ingestion of these packets may be slowed by filtering rules or other network restrictions.
+Scanned at [time]  (your connection is quite stable, RTT 1.25ms)
+Completed connect scan, returned result code 0 (scan rational: Default Nmap Scan)
+Warning: OSScan the initial versionandish of this scan engine is prone to false positives. Please consider upgrading to Nmap 6.49 or newer before running scans.
+Nmap done: 1 IP address (1 host up)
+```
+
+The output shows that the target has one active service, which is HTTP on TCP/80. The scan also identifies a potential issue with false positives, which will be addressed in the next step. Based on the passage above, How do we address the potential issue with false positives identified by Nmap during our scan of the target IP address?

@@ -1,0 +1,20 @@
+, with a publicly facing web server on port 80. The web application is a content management system called Drupal, with version 7.64 installed. There is also an SSH service running on port 22 with a version of OpenSSH 7.9p1.
+
+The machine uses CentOS Linux release 7.9.2009 (Core). The kernel is 3.10.0-957.el7.x86_64.
+
+The user "user" has been added with a password of "user". Root access is disabled, and SSH keys are required for login.
+
+The machine's hostname is centos7-webserver1 and its fully qualified domain name (FQDN) is centos7-webserver1.example.com.
+
+The machine has been patched with the following updates:
+
+    - 2022-03-15 - Security update for kernel issues CVE-2022-0492, CVE-2022-0506, CVE-2022-0507, and CVE-2022-0512.
+    - 2022-03-15 - Security update for OpenSSL issues CVE-2022-2297, CVE-2022-2298, CVE-2022-2299, and CVE-2022-2300.
+    - 2022-03-16 - Security update for Drupal issues CVE-2022-2407 and CVE-2022-2408.
+    - 2022-03-15 - Security update for glibc issues CVE-2022-0963 and CVE-2022-0964.
+    - 2022-03-17 - Security update for Firefox issues CVE-2022-1018, CVE-2022-1019, CVE-2022-1020, and CVE-2022-1021.
+    - 2022-03-15 - Security update for OpenSSH issues CVE-2022-0486 and CVE-2022-0487.
+
+The machine is currently running with a system uptime of 2 days, 15 hours, 2 minutes, and 39 seconds.
+
+Based on the information provided by the tester, it seems that we should focus our reconnaissance efforts on gathering more detailed information about Drupal version 7.64 and identifying any vulnerabilities or known issues related to this specific version. Additionally, we should look for any potential misconfigurations in SSH access control, such as open root login or weak authentication methods. Lastly, it may be worth examining the system's software update history to determine if any critical patches were missed during routine maintenance.

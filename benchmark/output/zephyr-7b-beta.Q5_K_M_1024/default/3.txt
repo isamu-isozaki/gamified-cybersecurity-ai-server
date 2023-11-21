@@ -1,0 +1,1 @@
+ the results of running an Nmap scan on 10.10.11.239 and report back to me as a senior penetration tester for further guidance. Be sure to highlight any open ports of interest and provide recommendations for further testing or remediation if necessary. Use clear and concise language, avoiding technical jargon where possible.

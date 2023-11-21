@@ -1,0 +1,4 @@
+ and has a hostname of "target-machine". The operating system is Linux, specifically Ubuntu. There are no open ports or services identified in the initial scan.
+
+
+Can you generate PTT for this test?

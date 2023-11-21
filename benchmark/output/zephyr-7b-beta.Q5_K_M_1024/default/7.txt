@@ -1,0 +1,5 @@
+
+You can use any formatting you like, but please make sure that the keys are descriptive and concise so that others can easily understand your work.
+For example, instead of "scan_results", use "Scan Results".
+Additionally, please include any tools or techniques used to gather information in the dictionary values.
+This helps others who may want to review your work to better understand how you obtained each piece of information.

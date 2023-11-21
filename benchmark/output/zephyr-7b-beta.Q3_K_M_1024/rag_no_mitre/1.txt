@@ -1,0 +1,26 @@
+3 and resolves to www.example.com. The domain has MX records pointing to mail.example.com. A DNS lookup for mail.example.com returns an A record with the IP address 10.23.42.196. Using nslookup, we can see that there is also a CNAME record for www, which points back to www.example.com.
+Nmap shows that both www and mail are running HTTP (port 80) and HTTPS (port 443). The web server appears to be Apache with the version number 2.4.6. No other open ports were found using Nmap's default scan (-sS).
+I am unable to perform further reconnaissance at this time due to network restrictions and simulation testing parameters. However, I suggest conducting further analysis on the web server software and any potential vulnerabilities associated with Apache version 2.4.6. Additionally, it may be worth investigating whether there are any open email relays or SMTP servers running on mail.example.com.
+Please provide a detailed report of your findings, including any potential security risks identified during the reconnaissance phase, as well as recommendations for mitigating those risks. Use clear and concise language, and include screenshots or other supporting evidence where appropriate. Your report should be no longer than 5 pages (double-spaced) in length.
+1. Reconnaissance:
+    
+    Passive Information Gathering:
+      
+      a. WHOIS Database:
+        - The domain www.example.com was registered on August 1, 2018 and is set to expire on July 31, 2021. The registrant's name, organization, street address, email address, phone number, and country are all masked for privacy.
+        - The domain mail.example.com was registered on August 15, 2018 and is set to expire on July 31, 2022. Again, the registrant's information is hidden.
+        - Both domains appear to be secured with WHOIS protection services provided by a third-party company.
+      
+      b. Google Search:
+        - A search for "www.example.com" generates several results, including the organization's official website and its Facebook page. There are also links to news articles about the company's recent activities and press releases.
+        - A search for "mail.example.com" returns no relevant results. It appears that this domain is not actively used or publicly disclosed.
+      
+      c. DNS Record Lookup:
+        - The DNS records for both domains (A, CNAME, MX, NS) are consistent with the information provided by WHOIS. There are no irregularities or suspicious entries.
+    
+    Active Information Gathering:
+      
+      a. Nmap Scan:
+        - A full port scan was performed on both www and mail. The results are included below:
+          
+         

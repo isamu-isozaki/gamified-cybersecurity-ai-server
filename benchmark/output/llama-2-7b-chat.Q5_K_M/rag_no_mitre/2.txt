@@ -1,0 +1,8 @@
+
+    - Vulnerability Analysis - (to-do)
+        - Check for known vulnerabilities on the target machine - (to-do)
+        - Identify potential exploitable vulnerabilities - (to-do)
+    - Exploitation - (not applicable to this test as it is a simulation environment)
+    - Post-Exploitation - (not applicable to this test as it is a simulation environment)
+
+You have been tasked with conducting a penetration test on the target machine. Please generate the PTT based on the information provided in the todo list above.

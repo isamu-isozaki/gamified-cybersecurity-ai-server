@@ -1,0 +1,6 @@
+
+Implement the TreeNode class from the UML diagram provided in the template.
+TreeNode class is the base class for the tree structure. It has two attributes: name (str) and children list (list). Its constructor takes a name as an argument and sets both the attributes. In addition, it has an add method to add child nodes recursively. This method first checks whether self.children is empty; if so, add child node to self.children directly. Otherwise, iterate through each of its children, check if its type is TreeNode (i.e., has a children attribute), and then call itself with the child as argument to recursively add it.
+The UML diagram for TreeNode class: ! [UML_Diagram](https://i.imgur.com/sS8Gb7M.png) 
+
+Based on the passage above, Can you provide an implementation of the TreeNode class as described in the UML diagram?

@@ -1,0 +1,1 @@
+ the vulnerabilities identified during security testing of a telnet service running on port 3000 at ip address 10.10.11.239. Be sure to highlight any critical issues and suggest possible mitigation strategies. Your report should be written in a clear, concise and professional style suitable for presentation to senior management.

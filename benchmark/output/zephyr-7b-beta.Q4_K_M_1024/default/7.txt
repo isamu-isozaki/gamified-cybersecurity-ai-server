@@ -1,0 +1,18 @@
+ Please do not add any comments or unnecessary whitespace.
+Here's your PTT:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": False,
+            "Determine the purpose of each open port": {
+                "SSH (22/tcp)": "Secure Shell Protocol",
+                "HTTP (80/tcp)": "Hypertext Transfer Protocol",
+                "HTTPS (443/tcp)": "Secure HTTP",
+                "SMTP (25/tcp)": "Simple Mail Transfer Protocol",
+            }
+        }
+    }
+}
+Note: You do not need to perform a full port scan as it is already completed. The machine has open ports on SSH (22), HTTP (80), HTTPS (443), and SMTP (25). The purpose of each open port is provided above.

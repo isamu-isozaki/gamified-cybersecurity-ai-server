@@ -1,0 +1,56 @@
+ the results of a Nmap scan for a system with IP address 10.10.11.239.\n
+nmap -A 10.10.11.237
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2023-11-05 23:43 EST
+Nmap scan report for 10.10.11.237
+Host is up (0.29s latency).
+
+PORT      STATE SERVICE
+23/tcp    open  ssh
+80/tcp   open  http
+443/tcp    open  https
+Sumbission Protocols: 443 CONC (COMP) P-SNC (COMP)
+RTSP        Microsoft Media Server 1.1
+Not shown: 972 closed ports
+
+Nmap done: 1 IP address (1 host up) scanned in 5.68 seconds
+Please summarize the results of a Nmap scan for a system with IP address 10.10.11.237, highlighting any interesting protocols identified.\n
+nmap -A -sV -T4 10.10.11.239 -o nmap.xml
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2023-11-11 18:07 EST
+Nmap scan initiated for 10.10.11.239 (10.10.11.239)
+Nmap: Standard version identification: 4.5.3 (Debian Linux 7.60-07)
+Nmap: Port Scan Timing: About 7 h (57263 pings), 85 MHz (Via:18011), 117 MB (RAM), 581 KBps (Goodput via TCP)
+Nmap: IP: 10.10.11.239, Service Detect Time: 9m 46s, Hostgroup Count: 1, Ping time: 92 ms, Traversal method: Direct, Parallelization: 256 threads, External: 0.0017 Gbps
+Nmap: Warning: OSS-Scan (36 services detected)
+Nmap: OS and Service detection progress: 0%
+Nmap: Completed 1 scan (15924 IPs, 18011 ports) in 10 minutes and 12 seconds
+Nmap: Reading output from 222.log
+Nmap: Service detection failed for the following services: http, https, ppp, rdp-tcp; 3 service(s) skipped
+Nmap: Service detection failed for the following services: http, https, ppp, rdp-tcp; 3 service(s) skipped
+Nmap: Some common hostname and service guesses were defeated or validated.
+Nmap: Host 10.10.11.239 appears to be running Ncat/Wacth/ncat-1.9-3 ncatsvc, which can cause anomalous scan results in terms of number of open ports.
+Nmap: Host is running an operating system was not detected or is running an operating system of type unknown. An selection: Full: 68620 full lines, Number: 432 number of lines, Compact: 1719 compact format Ncat/Wacth/ncatsvc: 51 lines
+Nmap: Host 10.10.11.239 seems to be running: ncatsvc: Ncat/Wacth/ncatsvc 1.9-3, Ncat/Wacth/ncatsvc 1.9-3 (Ncat/Wacth/ncatsvc 1.9-3), Ncat/Wacth/ncatsvc 1.9-3 (Ncat/Wacth/ncatsvc 1.9-3)
+Nmap: Service ncat-w has version: 1.9-3, Service http has version: HttpServer2/1.4.30 (Unidentified/1.4.30 ), Service https has no version given (Unidentified), Service rdp-tcp has no version given (Unidentified)
+Nmap: Host 10.10.11.239 appears to be running an unknown SMB server version.
+Nmap: Service ncat-u has version: 1.9-3, Service rdp has version: RDP 6.3 (Microsoft Windows Server 2016 RSAT:RServer Core Inst.).
+Nmap: Host 10.10.11.239 appears to be running an unknown SMB server version.
+Nmap: Service ncat-x has no version given (Unidentified), Service ssl has version: OpenSSL 1.1.1 and LibreSSL 3.2.2 (OpenSSL 1.1.1 ), Service tcpopen has no version given (Unidentified)
+Nmap: Host 10.10.11.239 appears to be running an unknown SMB server version.
+Nmap: Service ncat-z has version: 1.9-3, Service rdp-w has version: RDP 6.3 (Microsoft Windows Server 2016 RSAT:RServer Core Inst.).
+Nmap: Host 10.10.11.239 appears to be running an unknown SMB server version.
+Nmap: Service netbios-ss has no version given (Unidentified), Service ncatsvc-s has no version given (Unidentified)
+Nmap: Service ncatsvc-t has no version given (Unidentified)
+Nmap: Host 10.10.11.239 appears to be running an unknown SMB server version.
+Nmap: Service netbios-ns has version: NETBIOS/NetBIOS Name Service
+Nmap: Service netbios-nb has no version given (Unidentified)
+Nmap: Host 10.10.11.239 appears to be running an unknown SMB server version.
+Nmap: Service netbios-gn has no version given (Unidentified)
+Nmap: Service http-alt has version: Apache/2.4.6 (Unidentified), Service https-alt has no version given (Unidentified)
+Nmap: Host 10.10.11.239 appears to be running an unknown SMB server version.
+Nmap: Service http-header has Content-Type: text/html; charset=iso-8859-1
+Nmap: Service http-method has GET for the following paths: /favicon.ico, /index.html, /index.php, /robots.txt
+Nmap: Host 10.10.11.239 appears to be running an unknown SMB server version.
+Nmap: Service http-title has Index of for the following paths: /, /favicon.ico, /index.html, /index.php, /robots.txt
+Nmap: Host 10.10.11.239 appears to be running

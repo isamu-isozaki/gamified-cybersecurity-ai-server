@@ -1,0 +1,1 @@
+ the output from running curl on http://10.10.11.239:80 and provide guidance for further analysis based on the results. Use concise language and avoid technical jargon as much as possible.

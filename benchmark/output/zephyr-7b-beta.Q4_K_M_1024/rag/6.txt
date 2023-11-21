@@ -1,0 +1,4 @@
+
+You may assume that this code is part of a larger Python module or script, so do not add any extra imports or setup/teardown functions.
+How can I traverse the tree by visiting each node and its children recursively until all nodes have been visited? What would be an efficient way to implement this algorithm in Python using object-oriented programming principles? Please provide a working code snippet as an example.
+The traversal should visit each node exactly once, in any order (depth-first search). Be sure to avoid visiting already traversed nodes and handle tree structures with cycles appropriately. Consider adding comments and descriptive variable names for clarity and readability.

@@ -1,0 +1,2 @@
+
+Nmap scan on IP 10.10.11.239 reveals three open ports: SSH (22/tcp), HTTP (80/tcp), and an unusual port 3000/tcp. No closed ports found. Further examination is needed to determine the purpose of port 3000 and identify potential vulnerabilities.

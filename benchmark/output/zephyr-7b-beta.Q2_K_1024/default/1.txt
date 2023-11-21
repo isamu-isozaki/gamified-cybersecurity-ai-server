@@ -1,0 +1,5 @@
+ and it has multiple network adapters.
+There are open ports for HTTP, RDP, and SMB.
+This is an old Windows Server 2012 R2 Standard Edition x64 system.
+The hostname is server01.company.com.
+What should be the next step in the reconnaissance process based on the information provided by the tester?

@@ -1,0 +1,16 @@
+
+Write a Python function named `calculate_average` that accepts a list of numbers as an argument, calculates their average, and returns the result. Make sure to handle cases where the input list is empty or contains non-numeric elements by returning meaningful errors. Use meaningful variable names, adhere to PEP8 style guidelines, and add docstrings for your function.
+Create a C++ program that accepts a string as input from the user and checks whether it's a valid IP address or not (i.e., whether it conforms to the standard IPv4 format of four numbers separated by periods and ranging between 0 and 255). You should also validate that each number is separated by exactly one period. Your program should return true if the input is a valid IP address, and false otherwise.
+Write a Scala function that takes a list as an argument and returns the length of the shortest string in it. If all elements are null or empty, the function should return 0. The function name is `shortestStringLength`. Make sure to handle cases where the list contains non-string elements by returning meaningful errors. Use meaningful variable names and adhere to Scala style guidelines.
+Create a Rust program that accepts an integer from the user as input, computes its factorial recursively using the definition of factorial being n! = n * (n-1) * ... * 1, and prints the result. Make sure your implementation is tail-recursive to avoid stack overflow issues for large inputs. Use meaningful variable names and follow Rust style guidelines.
+Create a Ruby program that accepts a filename as input from the user, reads the contents of the file, counts the number of lines in it, and returns the result. Make sure to handle cases where the file doesn't exist or can't be read for some reason by returning meaningful errors. Use meaningful variable names and follow Ruby style guidelines.
+Develop a Python function named `is_palindrome` that checks whether a given string is a palindrome or not (i.e., reads the same way forward as backward). The function should return true if the input string is a palindrome, and false otherwise. Make sure to handle cases where the input string contains punctuation and whitespace by removing them before checking for palmindromeness. Use meaningful variable names and adhere to Python style guidelines.
+Generate response for the following question/instruction based on a piece of given material
+
+Question/Instruction: Why did Sapphire Ventures invest in Puppet Labs, and who are some of its investors?
+
+Given material: Puppet Labs, maker of open source automation software, closed a $27 million Series D round from VCs, nearly doubling its prior venture capital raise.
+The latest infusion brings the company’s total funding to $45 million, according to Crunchbase.
+Sapphire Ventures led the round and was joined by return backers Battery Ventures, as well as new investors Cisco Investments and Hewlett-Packard Pathfinder.
+Some of Puppet Labs’ earlier financial backers include Google Ventures, which participated in a $13 million Series C fundraising haul announced in June 2013, and TRUE Ventures, which joined the party in November 2013 after providing a portion of a $22 million Series B round.
+Puppet Labs’ open source autom

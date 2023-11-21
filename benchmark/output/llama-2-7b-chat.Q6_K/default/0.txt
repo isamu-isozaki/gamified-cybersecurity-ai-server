@@ -1,0 +1,9 @@
+ and hostname xyz.example.local.
+The network topology is:
+- Subnet A (10.23.42.0/24): 5 hosts
+- Subnet B (10.23.43.0/24): 7 hosts
+- Subnet C (10.23.44.0/24): 9 hosts
+The following are the ports and services on each host:
+Hostname    IP address     Ports/Services
+abc.example.local  10.23.42.433        - HTTP (port 80), SSH (port 22)
+def.example.local  10.23.42.43

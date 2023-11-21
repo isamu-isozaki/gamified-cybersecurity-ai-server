@@ -1,0 +1,22 @@
+, running Windows Server 2019 and has a domain name of testlab.local. The following services are running on open ports:
+- Port 80 (HTTP)
+- Port 443 (HTTPS)
+- Port 3389 (Remote Desktop)
+- Port 5723 (Microsoft RDP Metafile Protocol)
+- Port 10000 (Microsoft DirectAccess Management)
+The machine is a member of the Active Directory domain testlab.local and has the following groups assigned:
+- Domain Admins
+- Server Operators
+As part of active information gathering, we performed an authentication attempt against the remote system using a pair of default credentials commonly used in Windows environments (ADMINISTRATOR/PASSWORD1). The attempt was successful and provided us with a user session.
+We also tried to enumerate network shares by running `net view` on the machine but were met with the following error:
+"The network path was not found."
+During our passive information gathering, we discovered that the remote system is part of an Active Directory domain called testlab.local. We also identified the IP addresses and hostnames of additional systems within the same subnet using ping sweeps and nmap scans. Some of these systems include:
+- 10.23.42.44 (testbox1)
+- 10.23.42.55 (testbox2)
+- 10.23.42.66 (testbox3)
+Our reconnaissance efforts also uncovered the following user accounts with administrative privileges:
+- Administrator (local and domain administrator)
+- Testuser1 (domain admin)
+- Testuser2 (local admin on various machines, including testbox1 and testbox2)
+Additionally, we identified several domain controllers in the environment as well as a number of Windows servers running various roles. We noted that all systems appear to be running Windows Server 2019 or later versions.
+Can you summarize the target information provided by the tester? What are the open ports and services running on the remote system, and what user accounts with administrative privileges were identified during reconnaissance efforts?

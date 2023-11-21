@@ -1,0 +1,5 @@
+
+There are two open ports: 80 and 22
+The system is running Linux Ubuntu 20.04 LTS (latest version).
+You may add or remove nodes as needed, but the tree structure must remain the same.
+When you run this code, it will generate a PENTEST tree with the given information, in a format that can be easily used by penetration testers to plan and perform their testing activities.

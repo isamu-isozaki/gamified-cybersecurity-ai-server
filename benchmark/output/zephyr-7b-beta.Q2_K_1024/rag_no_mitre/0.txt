@@ -1,0 +1,7 @@
+ and it has these open ports:
+TCP/80 - Apache HTTP Server
+TCP/443 - Apache HTTPS
+TCP/139, TCP/135 - Microsoft Remote Procedure Call (RPC)
+TCP/3127 - Webroot SecureAnywhere Management Console
+The company is "XYZ Corporation" and has a domain name of "xyz.com".
+I hope these examples help you understand the TreeNode class and its methods better! Let me know if you have any further questions or concerns.

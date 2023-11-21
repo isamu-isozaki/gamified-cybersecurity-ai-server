@@ -1,0 +1,51 @@
+
+You can use the following template, which we recommend you to use:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": {
+                "Tools": "Nmap",
+                "Output": f"nmap -sV -sC -oA result/scan_{host} -p 1-65535 {host}"
+            },
+            "Determine the purpose of each open port": {
+                "Step 1: Find potential applications running on the server by examining the version numbers returned during the scan": "todo",
+                "Step 2: Research those applications and their known vulnerabilities using resources like OSVDB and CVE": "todo"
+            }
+        }
+    },
+    "Enumeration": {
+        "Discover User Accounts": "done",
+        "Discover Group Accounts": "done",
+        "Discover Open Directories": {
+            "Use Google Dorks to find directories containing sensitive information": "done",
+            "Scan the web server for open directories using a tool like Nikto": "todo"
+        },
+        "Discover Sensitive Files or Documents": {
+            "Search for files containing common names and words via Google Dorks": "done",
+            "Scan the web server with Nikto looking for interesting file types such as .conf, .xml, and .ini": "todo"
+},
+        "Discover Network Maps and Diagrams": {
+            "Use search engines to look for network diagrams or architecture documents": "done",
+            "Scan the web server with Nikto looking for network maps and diagrams in PDF format": "todo"
+        },
+        "Discover System and Application Files": {
+            "Examine the results of your port scan to see if any applications have version numbers that indicate known vulnerabilities": "done",
+            "Scan the web server using a tool like Nikto looking for potentially sensitive files such as backup files or configuration files": "todo"
+        }
+    },
+    "Vulnerability Analysis": {
+        "Determine which of your discovered applications have known security vulnerabilities": "todo",
+        "Prioritize the identified applications by their potential impact on the system and organization": "todo",
+        "Develop an exploitation plan based on the prioritized list of applications": "todo"
+    },
+    "Privilege Escalation": {
+        "Escalate privileges using techniques such as pass-the-hash or pass-the-ticket": "todo",
+        "Search for local administrator passwords": "todo",
+        "Examine the system event logs for suspicious activity indicative of privilege escalation attacks": "todo"
+    },
+    "Data Exfiltration": {
+        "Transfer sensitive data out of the organization using techniques such as base64 encoding and hiding files in image formats": "todo",
+        "Examine network traffic to look for signs of data transfer": "todo",
+        "Consider implementing a method

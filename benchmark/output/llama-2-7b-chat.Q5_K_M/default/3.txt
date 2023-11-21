@@ -1,0 +1,1 @@
+ what the scan is telling you about this target IP address, including any interesting findings or vulnerabilities that could be exploited.

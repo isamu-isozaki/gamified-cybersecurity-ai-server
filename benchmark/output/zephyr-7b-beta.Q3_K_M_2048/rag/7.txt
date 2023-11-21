@@ -1,0 +1,20 @@
+
+
+In this case, the PTT would look like this:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": "todo",
+            "Determine the purpose of each open port": {
+                "TCP Port 22": "ssh (Secure Shell)",
+                "TCP Port 80": "HTTP (Hypertext Transfer Protocol)",
+                "TCP Port 443": "HTTPS (HTTP Secure)",
+                "UDP Port 53": "DNS (Domain Name System)",
+                "UDP Port 67": "DHCP (Dynamic Host Configuration Protocol)"
+            }
+        }
+    }
+}
+Note: In real-life scenarios, the PTT will have many more details and steps. This is a simplified version for demonstrative purposes only.

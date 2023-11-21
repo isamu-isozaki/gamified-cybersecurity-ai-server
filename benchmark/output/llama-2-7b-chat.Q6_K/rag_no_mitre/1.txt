@@ -1,0 +1,5 @@
+, with OS Windows 10 and is using FTP as a service. The user credentials for the FTP service are email protected] 127.0.0.1 # scan ports 21, 80 of the ftp servicepentesting - [SEP]
+
+
+The goal of this report is to document the results of a penetration test engagement conducted by [Your Company] for [Client Company], which took place on [Date of Engagement]. The purpose of this test was to assess the security posture of [Client Company]'s network and identify any vulnerabilities that could be exploited by attackers.
+The scope of this eng

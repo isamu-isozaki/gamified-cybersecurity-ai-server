@@ -1,0 +1,1 @@
+ the interesting points found during a security test using a tool, including details such as potential vulnerabilities, unusual network behavior, and any suspicious activity observed. Use clear and concise language to effectively communicate your findings to a senior penetration tester for further analysis.

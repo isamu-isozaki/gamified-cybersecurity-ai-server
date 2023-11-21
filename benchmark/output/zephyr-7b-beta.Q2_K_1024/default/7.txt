@@ -1,0 +1,7 @@
+
+You can use this nmap command to do Active Information Gathering
+```
+nmap -p 80,443 10.23.42.434
+```
+To perform a full port scan, you may refer to this link: https://nmap.org/book/man-port-scanning-software-probes.html
+After performing the reconnaissance process, generate a PTT according to the instruction provided above. Make sure that your template is comprehensive and contains all necessary information for the following steps of the penetration test. The PTT should be written in clear and concise language, using appropriate headings and bullet points where necessary. It should also include any relevant network diagrams, screenshots or other visual aids to help illustrate the target environment. Remember that the PTT will serve as a detailed record of your actions throughout the test, so accuracy and completeness are critical.

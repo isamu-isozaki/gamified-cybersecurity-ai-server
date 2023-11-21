@@ -1,0 +1,16 @@
+The input content is from a security testing tool. You need to list down all the points that are interesting to you; you should summarize it as if you are reporting to a senior penetration tester for further guidance.\n
+
+(base) isamu@LAPTOP-4GBLVN1A:~$ curl http://10.10.11.239:80
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://codify.htb/">here</a>.</p>
+<hr>
+<address>Apache/2.4.52 (Ubuntu) Server at 10.10.11.239 Port 80</address>
+</body></html>
+(base) isamu@LAPTOP-4GBLVN1A:~$ curl http://codify.htb/
+curl: (6) Could not resolve host: codify.htb
+(base) isamu@LAPTOP-4GBLVN1A:~
+Please summarize in 50 words or less

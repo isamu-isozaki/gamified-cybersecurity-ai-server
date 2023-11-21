@@ -1,0 +1,37 @@
+
+        
+ - Vulnerability Scanning - [to-do]
+    - Use a vulnerability scanner to identify any weaknesses on the target machine - (to-do)
+    
+ - Exploitation - [to-do]
+    - Identify potential exploits - (to-do)
+    - Perform an exploit - (to-do)
+    
+ - Privilege Escalation - [to-do]
+    - Look for opportunities to escalate privileges - (to-do)
+    - Execute privilege escalation techniques - (to-do)
+    
+ - Defense Evasion - [to-do]
+    - Implement methods to avoid detection by security measures - (to-do)
+    
+ - Credential Access - [to-do]
+    - Identify ways to obtain sensitive credentials - (to-do)
+    - Gain access to protected systems and resources using stolen or compromised credentials - (to-do)
+    
+ - Data Exfiltration - [to-do]
+    - Establish a means for transferring data outside of the target network - (to-do)
+    
+ - Lateral Movement - [to-do]
+    - Maintain access to and move between compromised systems within the target network - (to-do)
+    
+ - Command and Control - [to-do]
+    - Establish communication with a remote system for further direction or execution of goals - (to-do)
+    
+ - Impact - [to-do]
+    - Evaluate the potential impact on the target organization or network - (to-do)
+    
+ - Cleanup - [to-do]
+    - Remove evidence of intrusion and cover tracks to minimize suspicion - (to-do)
+     
+
+Now, based on this information, please generate a PTT that covers all the necessary steps for each phase of the attack. Remember to not perform any post-exploitation steps or actions in the simulation environment as it is only certified and simulated. Your PTT should be detailed and accurately reflect the sequence of events required to successfully complete each stage of the attack.

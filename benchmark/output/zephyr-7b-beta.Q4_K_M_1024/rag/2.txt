@@ -1,0 +1,27 @@
+
+    - Check for any active running services - (to-do)
+ - Scanning - [to-do]
+    - Port Scanning - (completed)
+    - Network Scanning - (completed)
+ - Gaining Access - [to-do]
+    - Brute Force Attack - (completed)
+        - Use Hydra to perform the brute force attack - (completed)
+        - Use John the Ripper to crack the passwords obtained from Hydra - (to-do)
+        
+Note: The test environment is clean and all steps, except for post exploitation are being performed for demonstration purposes. 
+
+For this task, we will identify open ports and services on the target machine. Firstly, we will perform a full port scan using nmap. Execute the following command in Kali Linux:
+
+nmap -p- 10.23.42.434
+
+This will scan all 65,535 ports to identify which ones are open on the target machine. Once the scan is complete, we can use the '-O' flag to determine the operating system of the target machine. Execute the following command:
+
+nmap -O 10.23.42.434
+
+After running the commands, nmap will output a list of all open ports and services on the target machine, as well as information about the operating system used by the target machine. At this point, you may also run additional scans to determine which services are running on each port.
+
+The following steps are pending:
+ - Determine the purpose of each open port - (to-do)
+ - Check for any active running services - (to-do)
+
+These steps include identifying what software or services are running on each open port, and also checking for any active running services that may be exposed to attack. This information can help us understand the potential vulnerabilities of the target machine and guide our lateral movement strategy.

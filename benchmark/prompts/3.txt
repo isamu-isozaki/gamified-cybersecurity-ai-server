@@ -1,0 +1,14 @@
+The input content is from a security testing tool. You need to list down all the points that are interesting to you; you should summarize it as if you are reporting to a senior penetration tester for further guidance.\n
+nmap 10.10.11.239
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2023-11-07 20:09 EST
+Nmap scan report for 10.10.11.239
+Host is up (0.029s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3000/tcp open  ppp
+
+Nmap done: 1 IP address (1 host up) scanned in 8.16 seconds
+Please summarize in 50 words or less

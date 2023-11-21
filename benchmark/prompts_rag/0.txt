@@ -1,0 +1,27 @@
+Given Context: non - standard port, obfuscated files or information, screen capture, system information discovery, system network configuration discovery, system network connections discovery, system owner / user discovery s0159 snugride [ 5 ] application layer protocol : web protocols, boot or logon autostart execution : registry run keys / startup folder, command and scripting interpreter : windows command shell, encrypted channel : symmetric cryptography s0275 uppercut [ 8 ] application layer protocol : web protocols, command and scripting interpreter : windows command shell, encrypted channel : symmetric cryptography, file and directory discovery, ingress tool transfer, screen capture, system information discovery, system network configuration discovery, system owner / user discovery, system time discovery references miller - osborn, j. and grunzweig, j.. ( 2017, february 16 ). menupass returns with new malware and new attacks against japanese academics and organizations. retrieved march 1, 2017. crowdstrike. ( 2013, october 16 ). crowdcasts monthly : you have an adversary problem. retrieved march 1, 2017. fireeye. ( 2014 ). poison ivy : assessing damage and extracting intelligence. retrieved november 12, 2014. pwc and bae systems. ( 2017, april ). operation cloud hopper. retrieved april 5, 2017. fireeye isight intelligence. ( 2017, april 6 ). apt10 ( menupass group ) : new tools, global campaign latest manifestation of longstanding threat. retrieved june 29, 2017. united states district court southern district of new york ( usdc sdny ). ( 2018, december 17 ). united states of america v. zhu hua and zhang shilong. retrieved april 17, 2019. accenture security. ( 2018, april 23 ). hogfish redleaves campaign. retrieved july 2, 2018. matsuda, a., muhammad i. ( 2018, september 13 ). apt10 targeting japanese corporations using updated ttps. retrieved september 17, 2018. pwc and bae systems. ( 2017, april ). operation cloud hopper : technical annex. retrieved april 13, 2017. twi1ight. ( 2015, july 11 ). ad - pentest - script - wmiexec. vbs. retrieved june 29, 2017. symantec. ( 2020, november 17 ). japan - linked organizations targeted in long - running and sophisticated attack campaign. retrieved december 17, 2020. [SEP]
+
+ Answer 
+The target information is listed below. Please follow the instruction and generate PTT. The PTT is constructed using
+class TreeNode:
+    def __init__(self, data, completion_status="todo"):
+        self.data = data
+        assert completion_status in ["todo", "inprogress", "done"]
+        self.completion_status = completion_status
+        self.children = []
+    def add(self, child):
+        self.children.append(child)
+Note that this test is certified and in simulation environment, so do not generate post-exploitation and other steps.
+You may start with this template:
+root = TreeNode("Pentesting")
+recon = TreeNode("Reconnaissance")
+passive_info_gathering = TreeNode("Passive Information Gathering", "done")
+active_info_gathering = TreeNode("Active Information Gathering", "done")
+identify_open_ports = TreeNode("Identify Open Ports and Services")
+identify_open_ports.add(TreeNode("Perform a full port scan"))
+identify_open_ports.add(TreeNode("Determine the purpose of each open port"))
+recon.add(passive_info_gathering)
+recon.add(active_info_gathering)
+recon.add(identify_open_ports)
+root.add(recon)
+The below is the target information:
+The machine is at IP address 10.23.42.434

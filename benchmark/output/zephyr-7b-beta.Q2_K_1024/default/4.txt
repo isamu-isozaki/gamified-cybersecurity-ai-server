@@ -1,0 +1,1 @@
+ the main findings of a security test that identified a permanent redirect at http://10.10.11.239:80 and failed to resolve "codify.htb".

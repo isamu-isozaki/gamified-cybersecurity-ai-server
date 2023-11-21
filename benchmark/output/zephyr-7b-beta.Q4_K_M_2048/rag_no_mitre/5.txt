@@ -1,0 +1,1 @@
+ the interesting points found during security testing based on the given context material. Provide specific details and suggestions for further investigation. Use clear and concise language, avoiding technical jargon where possible.

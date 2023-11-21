@@ -1,0 +1,18 @@
+ Please format your answer as a code block, like so: ``` { ... } ``` .
+Here's an example of what the dictionary might look like when completed:
+```
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": {
+                "ports.ftp.port": 21,
+                "ports.ftp.service": "FTP",
+            },
+            "Determine the purpose of each open port": {
+                "port 21": "FTP",
+            }
+        },
+    }
+```

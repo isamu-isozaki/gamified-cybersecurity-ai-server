@@ -1,0 +1,37 @@
+
+    - Discover User Access Methods - (to-do)
+    - Analyze Network Traffic - (to-do)
+    - Determine Potential Weaknesses and Vulnerabilities - (to-do)
+ - Gain Initial Access - [to-do]
+    - Exploit Known Vulnerabilities - (completed)
+        - MS14-037 - (completed)
+        - CVE-2018-1565 - (completed)
+        - CVE-2018-1292 - (completed)
+    - Social Engineering and Phishing - (to-do)
+    - Password Spraying and Brute Force Attacks - (to-do)
+    - Pivot into the Network - (to-do)
+        - Lateral Movement - (to-do)
+            - Windows Remote Desktop Protocol (RDP) - (completed)
+            - Windows Remote PowerShell (RPS) - (completed)
+            - WMI - (completed)
+            - PsExec.exe - (completed)
+            - Scheduled Tasks - (completed)
+        - Steal Credentials and Pass-the-Hash (PtH) - (to-do)
+    - Execute Commands on the Target System - (to-do)
+        - PowerShell.exe - (completed)
+            - Mimikatz.exe - (completed)
+            - Impacket.dll - (completed)
+            - WinRS.exe - (completed)
+    - Install a Persistent Backdoor - (to-do)
+        - Meterpreter - (completed)
+    - Clean Up and Cover Tracks - (to-do)
+        - Clear the Event Logs - (to-do)
+        - Remove Local User Accounts - (to-do)
+        - Remove Temporary Files - (to-do)
+        - Delete Command History - (to-do)
+    - Exfiltrate Data - (to-do)
+        - Use Curl.exe or PowerShell's Invoke-WebRequest for Command and Control - (completed)
+ 
+Instructions:
+
+1. Scan the target machine for open ports and identify which ones are using TCP and UDP protocols. Based on the information provided, which reconnaissance steps still need to be completed, and what tools or techniques could be used for each step?

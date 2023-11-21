@@ -1,0 +1,24 @@
+
+    - Enumerate Users - (to-do)
+        - Leverage tools such as CrackMapExec, Impacket's smbclient, or BloodHound - (to-do)
+        - Utilize password spraying - (to-do)
+
+Note: The specific techniques and tools used for each step may vary depending on the target environment. Adjust the todo list as needed to fit your situation.
+
+To perform a full port scan, you can use the following command in Kali Linux:
+
+nmap - p- TCP, UDP, SCTP - O - Pn - v - sS 10.23.42.43
+
+This will scan all open ports (TCP, UDP, and SCTP) without any filtering (-p-), using the traceroute feature (-O), showing only basic output (-o), displaying ping scanning (-Pn), verbose (-v), and setting the starting point to SYN (-sS).
+
+After running this command, you should see a list of open ports along with their corresponding services. Use tools like Nmap's service version detection (-sV) or ncat to further investigate these services.
+
+To enumerate users, use CrackMapExec to perform a password spray attack. Here is an example usage:
+
+crackmapexec smb 10.23.42.43 -u admin -p "password!" --users
+
+This will connect to the SMB service on 10.23.42.43, use the username 'admin', and attempt a password spray attack using the password 'password!' while also listing all users on the system.
+
+Other tools for user enumeration include Impacket's smbclient or BloodHound to graphically display relationships between users.
+
+Remember to always follow responsible disclosure practices when performing these actions, and be sure to obtain proper authorization before proceeding with exploitation.

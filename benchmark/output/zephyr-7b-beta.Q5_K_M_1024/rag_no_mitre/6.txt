@@ -1,0 +1,1 @@
+ The class name should be "Tree" or you can choose another name with your team's agreement, but please make sure the class is named consistently through the project. Based on the passage above, Can you explain how to use a TreeNode object and its add() method in Python to construct a tree structure? Provide an example implementation based on the given material.

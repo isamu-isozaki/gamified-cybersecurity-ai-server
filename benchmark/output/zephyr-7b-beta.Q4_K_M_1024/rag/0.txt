@@ -1,0 +1,51 @@
+ and the hostname is "example-machine"
+The operating system is CentOS version 6.5
+There are three network services running on port 22 (SSH), port 80 (HTTP) and port 3306 (MySQL).
+There is a web server running Apache/2.2.15
+An SSH session using the username "johndoe" and password "password123" could be established successfully on this machine.
+The user "johndoe" has home directory "/home/johndoe".
+There are two active users, namely "johndoe" and "user2".
+The root account is disabled.
+You may add more nodes to the tree based on your findings from reconnaissance phase. After you perform further steps (such as exploitation), update the completion status of the related nodes.
+This test case also includes a mock environment for SSH connection, where you can simulate executing SSH commands and capture the response. You may use this feature to validate your attack sequence or any automation tools that rely on SSH connections.
+And here's my implementation:
+```python
+from tree_node import TreeNode
+
+root = TreeNode("Pentesting")
+recon = TreeNode("Reconnaissance")
+passive_info_gathering = TreeNode("Passive Information Gathering", "done")
+active_info_gathering = TreeNode("Active Information Gathering", "done")
+identify_open_ports = TreeNode("Identify Open Ports and Services")
+identify_open_ports.add(TreeNode("Perform a full port scan"))
+identify_open_ports.add(TreeNode("Determine the purpose of each open port"))
+recon.add(passive_info_gathering)
+recon.add(active_info_gathering)
+recon.add(identify_open_ports)
+root.add(recon)
+
+# add more nodes based on reconnaissance phase
+vulnerability_scanning = TreeNode("Vulnerability Scanning")
+vulnerability_scanning.add(TreeNode("Execute vulnerability scanner"))
+vulnerability_scanning.add(TreeNode("Analyze the results and prioritize the findings"))
+recon.add(vulnerability_scanning)
+
+# attack phase
+exploitation = TreeNode("Exploitation")
+exploit1 = TreeNode("Execute exploit #1", "inprogress")
+exploit2 = TreeNode("Execute exploit #2", "todo")
+exploitation.add(exploit1)
+exploitation.add(exploit2)
+root.add(exploitation)
+
+# post-exploitation phase
+post_exploitation = TreeNode("Post-Exploitation")
+post_exploitation.add(TreeNode("Install backdoors and persistence mechanisms"))
+post_exploitation.add(TreeNode("Execute privilege escalation techniques"))
+post_exploitation.add(TreeNode("Capture sensitive data"))
+root.add(post_exploitation)
+
+# SSH mock environment
+class MockSSHConnection:
+    def __init__(self, command):
+        self._

@@ -1,0 +1,19 @@
+Given Context: [CLS] ftp bounce attack - scanftp bounce - scanningmanual1. connect to vulnerable ftp2. use * * port * * or eprt ( but only 1 of them ) to make it establish a connection with the < ip : port > you want to scan : port 172, 32, 80, 80, 0, 8080 eprt | 2 | 172. 32. 80. 80 | 8080 | 3. use list ( this will just send to the connected < ip : port > the list of current files in the ftp folder ) and check for the possible responses : 150 file status okay ( this means the port is open ) or 425 no connection established ( this means the port is closed ) 1. instead of list you could also use retr / file / in / ftp and look for similar open / close responses. example using port ( port 8080 of 172. 32. 80. 80 is open and port 7777 is closed ) : same example using eprt ( authentication omitted in the image ) : open port using eprt instead of list ( different env ) nmapnmap - b < name > : < pass > @ < ftp _ server > < victim > nmap - pn - v - p 21, 80 - b ftp : [ email protected ] 127. 0. 0. 1 # scan ports 21, 80 of the ftpnmap - v - p 21, 22, 445, 80, 443 - b ftp : [ email protected ] 192. 168. 0. 1 / 24 # scan the internal network ( of the ftp ) ports 21, 22, 445, 80, 443network services pentesting - [SEP]
+
+ Answer 
+The target information is listed below. Please follow the instruction and generate PTT. The PTT is constructed using a python dictionary.
+Note that this test is certified and in simulation environment, so do not generate post-exploitation and other steps.
+You may start with this template:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": "todo",
+            "Determine the purpose of each open port": "todo",
+        },
+    }
+}
+The below is the target information:
+The machine is at IP address 10.23.42.434
+Your response must be a valid Python dictionary and should contain nothing else because we will directly execute it in Python.

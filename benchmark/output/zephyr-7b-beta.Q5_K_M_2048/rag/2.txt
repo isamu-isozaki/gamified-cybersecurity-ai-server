@@ -1,0 +1,23 @@
+
+ - Scanning & Enumeration - [to-do]
+    - Network Mapping - (to-do)
+    - OS Fingerprinting - (completed)
+    - Identify Running Applications and Services - (to-do)
+        - Use netstat or tasklist to list active connections and processes - (to-do)
+        - Determine the purpose of each running application/service - (to-do)
+ - Gaining Access - [to-do]
+    - Identify Vulnerabilities and Exploits - (completed)
+    - Use Metasploit or another exploit framework to exploit a vulnerability - (to-do)
+        - Verify successful exploitation with the use of meterpreter sessions - (to-do)
+ - Maintaining Access - [to-do]
+    - Keep a Backdoor and Cover Tracks - (to-do)
+        - Use Metasploit or another backdoor tool to maintain access - (to-do)
+        - Cover tracks by removing any evidence of intrusion - (to-do)
+ - Moving Laterally - [to-do]
+    - Pivot and Escalate Privileges - (to-do)
+        - Use Metasploit or another tool to pivot and escalate privileges - (to-do)
+ - Cleaning Up - [to-do]
+    - Remove Backdoors and Evidence of Intrusion - (to-do)
+        - Use Metasploit or another tool to remove backdoors and cover tracks - (to-do)
+
+Based on the passage above, using Metasploit or another backdoor tool, keep a backdoor and cover tracks by removing any evidence of intrusion. This should be done under the "Maintaining Access" step.

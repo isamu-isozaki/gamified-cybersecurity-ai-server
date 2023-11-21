@@ -1,0 +1,40 @@
+ and has the following open ports:
+80, 443, 135, 139, 389, 49161, 32768-65535
+The web application running on port 80 is called "MyWebApp" and is running version 1.0. The web server is Apache/2.4.18 (Ubuntu). The SSL certificate is issued by Let's Encrypt.
+The LDAP service running on port 389 is configured for user authentication and contains approximately 50 users. The domain name is example.com.
+The RDP service running on port 3389 is only accessible from specific IP addresses within the organization's network. The RDP version is 10.
+The machine is running Windows Server 2016 with all patches and updates applied as of August 2021.
+Additional software installed includes Microsoft SQL Server Management Studio, Visual Studio Code, and PuTTY.
+
+
+Based on the text provided, generate the following steps for the "Identify Open Ports and Services" section:
+   1.3 Determine the purpose of each open port - (to-do)
+       1.3.1 Perform a full port scan - (to-do)
+            a) Use Nmap to scan the machine's IP address and save the output to a file for analysis later.
+            b) Run the command: nmap -p 1-65535 10.23.42.434 > ports.txt
+       1.3.2 Determine the purpose of each open port - (to-do)
+            a) Review the Nmap output and identify which ports are being used for specific services.
+            b) Use the nmap service information (-sv flag) to determine the software versions running on those ports.
+            c) Cross-reference the service information with known vulnerabilities and exploits to assess potential security risks.
+
+
+Generate the following steps for the PTT based on the given text:
+1. Reconnaissance - [to-do]
+   1.1 Passive Information Gathering - (completed)
+        a) Use search engines, social media platforms, and open source intelligence tools to gather information about the target organization's history, employees, products, and services.
+        b) Save all relevant findings in a document or spreadsheet for future reference.
+   1.2 Active Information Gathering - (completed)
+        a) Use network scanning tools such as Nmap or Fping to identify open ports and running services on the target machine's IP address.
+        b) Save all relevant findings in a document or spreadsheet for future reference.
+   1.3 Identify Open Ports and Services - (to-do)
+        a) Review the passive information gathering results to assess which services are likely to be running on the target machine based on previous incidents, industry trends, or other publicly available data.
+        b) Use Nmap to perform a full port scan of the target machine's IP address and save the output to a file for analysis later.
+            i. Run the command: nmap -p 1-65535 10.23.42.434 > ports.txt
+        c) Use Nmap's service information (-sv flag) to determine which software versions are running on each open port identified during the full port scan.
+        d) Cross-reference the identified software versions with known vulnerabilities and exploits to assess potential security risks.
+
+
+Generate the following steps for the PTT based on the given text:
+1. Reconnaissance - [to-do]
+   1.1 Passive Information Gathering - (completed)
+        a) Use search engines, social media platforms,

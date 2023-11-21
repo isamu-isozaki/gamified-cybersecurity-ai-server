@@ -1,0 +1,1 @@
+ the output of the command 'curl http://codify.htb/' and explain what it means from a security perspective. Use clear and concise language, avoiding technical jargon where possible.

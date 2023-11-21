@@ -1,0 +1,5 @@
+, and it's running Windows Server 2008 R2. 
+There are several services running on this machine including HTTP (Microsoft-HTTPAPI/2.0), HTTPS (HTTPSec), NetBIOS-SSN (SSDP/1900), NetBIOS-DGM (LMHOSTS/576), and WSMAN (WS-Management). 
+Additionally, the machine has an open port on TCP 443 and UDP 16181. 
+The application running on this machine is Active Directory Lightweight Directory Services version 1.0.20190109_1700. 
+Based on the reconnaissance information provided by the tester, what further steps can you take to gather more intelligence about this machine? Please compile a list of actions to perform in each category and indicate whether they have already been completed or are still pending. Your answer should provide detailed instructions for executing these steps, including any necessary tools or techniques.

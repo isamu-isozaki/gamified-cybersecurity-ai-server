@@ -1,0 +1,6 @@
+, and the OS is Windows Server 2019 Datacenter version 1709 SP0, build 17763.
+During active information gathering, we have identified a web server running on port 80 with an Apache HTTP Server version 2.4.33.
+During the reconnaissance phase, no vulnerabilities were identified. 
+
+
+After identifying open ports and services, perform a full port scan using Nmap to confirm all open ports and their associated services. Please provide a detailed report of your findings including any additional services or applications discovered during the port scan. Provide screenshots or command output where applicable. Based on the passage above, Can you summarize the target information provided for pentesting purposes? What steps should be taken to identify open ports and services using Nmap? How should any additional services or applications discovered during the port scan be documented and reported?

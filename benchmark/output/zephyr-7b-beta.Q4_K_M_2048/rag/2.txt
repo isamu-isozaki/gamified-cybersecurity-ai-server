@@ -1,0 +1,28 @@
+
+    - Banner Grabbing - (to-do)
+    - Network Mapping - (to-do)
+
+ - Vulnerability Scanning - [to-do]
+    - Choose a scanner tool - (to-do)
+    - Run the vulnerability scanner - (to-do)
+    - Evaluate results and prioritize remediation - (to-do)
+
+ - Exploit Development - [to-do]
+    - Research available exploits - (to-do)
+    - Develop custom exploits - (to-do)
+
+ - Attack Execution - [to-do]
+    - Launch a social engineering attack - (to-do)
+    - Use phishing emails or other techniques to trick users into providing credentials or downloading malware - (to-do)
+    - Perform a man-in-the-middle attack - (to-do)
+    - Execute malicious code on the target machine - (to-do)
+
+ - Data Collection and Analysis - [to-do]
+    - Identify sensitive data - (to-do)
+    - Steal and exfiltrate data - (to-do)
+    - Monitor network traffic for sensitive information - (to-do)
+
+ - Cleanup - [to-do]
+    - Cover tracks and remove evidence of intrusion - (to-do)
+    - Disable security measures - (to-do)
+    - Remove all traces of the attack, including logs and audit trails - (to-do)

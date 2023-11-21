@@ -1,0 +1,1 @@
+ the main points from a security testing tool output and highlight any interesting findings for further investigation. Use clear and concise language, avoiding technical jargon where possible, to ensure your report can be easily understood by senior penetration testers with varying levels of expertise.

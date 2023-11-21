@@ -1,0 +1,6 @@
+ and has a hostname of server01. Your client's IP address is 10.23.78.158. The network range is between 10.23.0.1 to 10.23.255.254, subnet mask 255.255.0.
+This test's time limit is set for 3 hours and you may start at any time within the next 6 hours.
+You are allowed to use all standard network tools for this assessment: ping, nslookup, traceroute, tcpdump, netstat, arp, ipconfig, dig, etc.
+Pentest Lab - [SEP]
+
+How can I identify open ports and services on a target machine using Nmap during a penetration testing scenario? Provide steps for performing a full port scan and determining the purpose of each open port.

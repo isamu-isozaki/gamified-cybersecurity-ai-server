@@ -1,0 +1,24 @@
+ The final output must look like this:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": {
+                "ports_to_scan": {
+                    "http": 80,
+                    "https": 443,
+                    "ftp": 21,
+                    "tftp": 23,
+                },
+            "Determine the purpose of each open port": {
+                "port_info": {
+                    "http": "Web server",
+                    "https": "Web server",
+                    "ftp": "File transfer",
+                    "tftp": "Trivial File Transfer Protocol",
+                },
+        }
+    }
+}
+Please generate the PTT based on this information.

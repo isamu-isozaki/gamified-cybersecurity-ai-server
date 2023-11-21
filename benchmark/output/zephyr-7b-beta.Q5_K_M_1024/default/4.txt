@@ -1,0 +1,1 @@
+ the output produced when attempting to access "http://codify.htb/" using cURL.

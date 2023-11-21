@@ -1,0 +1,40 @@
+
+You can assume any missing pieces of information or skip any steps that are not relevant to the target.
+However, you should still include those sections with the "done" or "todo" status in your template.
+The dictionary that follows is what I have created based on the provided target information.
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": "todo",
+            "Determine the purpose of each open port": "todo",
+        },
+    },
+    "Vulnerability Scanning": {
+        "Automated Tools": "done",
+        "Manual Testing": "todo",
+    },
+}
+To add to this, I'm going to assume that the machine is running a web server on port 80 and an SSH server on port 22.
+Then my dictionary would look like this:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": "todo",
+            "Determine the purpose of each open port": {
+                "Port 22": "SSH server",
+                "Port 80": "Web server",
+            },
+        },
+    },
+    "Vulnerability Scanning": {
+        "Automated Tools": "done",
+        "Manual Testing": "todo",
+    },
+}
+In this example, I've nested the "Determine the purpose of each open port" section within "Identify Open Ports and Services".
+This allows me to store additional information about specific ports. 
+The above dictionary is great, but can you provide more details on how to perform the full port scan in "Perform a full port scan"? How do we determine which ports are open and what services are running on them? Are there any tools or techniques we should use for this step?

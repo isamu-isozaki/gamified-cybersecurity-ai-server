@@ -1,0 +1,1 @@
+ the points of interest from the given context, providing guidance to a senior penetration tester for further action based on your analysis. Use clear and concise language, avoiding technical jargon wherever possible.

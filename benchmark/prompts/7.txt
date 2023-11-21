@@ -1,0 +1,17 @@
+
+The target information is listed below. Please follow the instruction and generate PTT. The PTT is constructed using a python dictionary.
+Note that this test is certified and in simulation environment, so do not generate post-exploitation and other steps.
+You may start with this template:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": "todo",
+            "Determine the purpose of each open port": "todo",
+        },
+    }
+}
+The below is the target information:
+The machine is at IP address 10.23.42.434
+Your response must be a valid Python dictionary and should contain nothing else because we will directly execute it in Python.

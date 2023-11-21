@@ -1,0 +1,19 @@
+.
+There are three open ports:
+- Port number 22: SSH protocol (Secure Shell)
+- Port number 80: HTTP protocol (Hyper Text Transfer Protocol)
+- Port number 443: SSL protocol (Secure Socket Layer)
+We now have the following information about each service running on each open port:
+SSH:
+- Listening address: 10.23.42.434
+- Standard SSH port: 22
+- Protocol used by SSH: TCP (Transmission Control Protocol)
+HTTP:
+- Listening address: 10.23.42.434
+- Standard HTTP port: 80
+- Protocol used by HTTP: TCP
+SSL:
+- Listening address: 10.23.42.434
+- Standard SSL port: 443
+- Protocol used by SSL: Secure Socket Layer (SSL)
+Generate the tree traversal using depth-first search and print it out in a clear format, including any hidden nodes that contain completion status "todo". Use the code provided as the starting point.

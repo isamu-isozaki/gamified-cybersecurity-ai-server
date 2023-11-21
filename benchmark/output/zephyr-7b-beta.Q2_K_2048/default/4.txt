@@ -1,0 +1,1 @@
+ the findings of a security testing tool that you have used, highlighting only the most critical issues and providing possible recommendations for remediation. Use clear and concise language to ensure effective communication with senior management.

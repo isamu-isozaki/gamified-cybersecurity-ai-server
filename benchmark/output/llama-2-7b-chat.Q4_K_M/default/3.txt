@@ -1,0 +1,1 @@
+. How many open ports are there on the target system? What services are running on those open ports?\n

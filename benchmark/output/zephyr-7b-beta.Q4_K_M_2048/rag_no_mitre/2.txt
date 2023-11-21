@@ -1,0 +1,54 @@
+
+            - Nmap: -pv -A -Pn -T4 10.23.42.43
+                - Vulnerability Scan: -sV -p 21, 22, 80, 445, 8080
+                    - Version Detection: -sV -p 21, 22, 80, 445, 8080 --script=vuln --script-args=disable=all
+                        - OS Detection: -O -p 21, 22, 80, 445, 8080
+    - Identify running services and applications - (to-do)
+        - Use Netstat or Lsof to view active connections - (to-do)
+            - sudo netstat -plnt | grep LISTEN
+                - sudo lsof -i -n -P
+    - Identify users and groups - (to-do)
+        - Find out the OS usernames using Cat or Finger - (completed)
+            - cat /etc/passwd
+                - finger johnDoe
+        - Use Getent or Cd to list all groups - (completed)
+            - getent group
+                - cd /var/www/html
+    - Identify network devices and services - (to-do)
+        - Find out the hostname using Hostname or Cat - (completed)
+            - hostname
+                - cat /etc/hostname
+        - Use Arp or Nbtscan to identify active network devices - (to-do)
+            - arp -a
+                - nbtscan -A IP-Address-or-Subnet
+    - Identify software and versions installed on the system - (to-do)
+        - Find out the OS version using Cat or Finger - (completed)
+            - cat /etc/issue
+                - finger johnDoe
+        - Use Package Manager to list all packages - (completed)
+            - apt list --installed | grep '^i'
+                - dnf list installed | grep '^i'
+    - Determine network layout and topology - (to-do)
+        - Use Traceroute or Mtr to trace route to specific destinations - (to-do)
+            - traceroute IP-Address-or-Subnet
+                - mtr IP-Address-or-Subnet
+    - Identify network security measures and controls - (to-do)
+        - Find out the presence of firewalls using Netstat or Iptables - (completed)
+            - sudo netstat -rn | grep DF
+                - sudo iptables -L -n
+    - Identify current network activity and bandwidth usage - (to-do)
+        - Use Netstat or Iptables to view active connections and packets - (completed)
+            - sudo netstat -a | grep LISTEN | wc -l
+                - sudo iptables -L -n | grep DROP | wc -l
+        - Use Ifconfig, Cat or Mii-tool to view network interface statistics - (completed)
+            - ifconfig -a | grep eth0 | awk '{print $5}'
+                - cat /proc/net/dev | awk '{print $4}' root@debian:~#
+    - Identify system logging mechanisms and practices - (to-do)
+        - Find out the OS logging facilities using Cat or Finger - (completed)
+            - cat /etc/rsyslog.conf
+                - finger johnDoe
+    - Identify system monitoring and alerting mechanisms - (to-do)
+        - Use Systemctl or Chkconfig to view active services - (completed)
+            - systemctl list-units | grep -i monitor
+                - chkconfig --list | grep monitor
+Based on the information provided, please perform a full port scan (-pv -A -Pn -T4) using Nmap and determine the purpose of each open port (-sV -p 21, 22, 80, 445, 8080) by running vulnerability scans (-sV --script=vuln --script-args=disable=all), OS detection (-O), and version detection (-sV). Also, find out the hostname using Hostname or Cat (-hostname, -cat /etc/hostname), list all groups using Getent or Cd (-getent group, -cd /var/www/html), identify network devices and services using Arp or Nbtscan (-arp -a, -nbtscan -A IP-Address-or-Subnet), determine system logging facilities using Cat or Finger (-cat /etc/rsyslog.conf, -finger johnDoe), and list active services using Systemctl or Chkconfig (-systemctl list-units | grep -i monitor, -chkconfig --list | grep -i monitor). Finally, identify current network activity and bandwidth usage by viewing active connections and packets using Netstat or Iptables (-sudo netstat -a | grep LISTEN | wc -l, -sudo iptables -L -n | grep DROP | wc -l), and network interface statistics using Ifconfig, Cat or Mii-tool (-ifconfig -a | grep eth0 | awk '{print $5}' root@debian:~#).

@@ -1,0 +1,2 @@
+:
+The website at http://codify.htb is down, and the browser is displaying a "Moved Permanently" message with a new URL. The IP address of the server hosting the website is 10.10.11.239, and the web server is Apache/2.4.52 (Ubuntu). There is also an address bar in the browser with the URL "http://codify.htb".

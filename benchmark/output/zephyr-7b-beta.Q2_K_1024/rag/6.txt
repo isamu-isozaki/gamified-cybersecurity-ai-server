@@ -1,0 +1,2 @@
+
+What would be an efficient way to implement this functional requirement using object-oriented programming concepts in Python?

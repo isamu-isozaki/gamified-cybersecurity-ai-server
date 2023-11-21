@@ -1,0 +1,36 @@
+
+    - Enumerate Users and Privileges - (to-do)
+        - Identify usernames - (to-do)
+        - Determine user privileges - (to-do)
+    - Identify Operating System and Version - (completed)
+    - Research Common Vulnerabilities and Exploits - (to-do)
+        - Review CVEs for the identified operating system and version - (to-do)
+        - Research common software vulnerabilities - (to-do)
+        - Research known exploits - (to-do)
+    - Identify Network Architecture and Critical Systems - (to-do)
+        - Map network topology - (to-do)
+        - Identify critical systems and their functions - (to-do)
+        - Determine communication paths between critical systems - (to-do)
+
+The following tasks have been completed:
+ - Passive Information Gathering
+   - Utilized various online resources to gather all available public information about the target organization.
+ - Identify Operating System and Version
+   - Performed a banner grab against the web server to determine the operating system and version.
+
+The following tasks are still pending:
+ - Active Information Gathering
+   - Will use Nmap to conduct a full port scan of the target machine.
+   - Once completed, will compare the results with previously identified open ports to determine any changes.
+ - Identify Open Ports and Services
+   - Will utilize Nmap to identify all open ports and services on the target machine.
+   - Will then determine the purpose of each open port by consulting relevant documentation and online resources.
+ - Enumerate Users and Privileges
+   - Will use various methods, such as cracking password hashes, to identify usernames on the target machine.
+   - Will also attempt to determine user privileges by analyzing system logs and access control lists.
+ - Identify Network Architecture and Critical Systems
+   - Will map out the network topology using network discovery tools, such as Nmap or Fping.
+   - Will then identify critical systems and their functions, as well as communication paths between them.
+ - Research Common Vulnerabilities and Exploits
+   - Will review CVEs for the identified operating system and version to determine any known vulnerabilities.
+   - Will also research common software vulnerabilities and known exploits related to the target organization's applications.

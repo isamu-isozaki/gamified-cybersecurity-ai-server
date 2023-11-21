@@ -1,0 +1,17 @@
+, and it has a single Nmap scan in progress.
+Nmap scan report for <host> (<ip>)
+Host is up (0.00 seconds latency).
+Not shown in this report are 95 closed ports
+Port    Proto  Service
+22/tcp   Open  MySQL
+80/tcp  Open  HTTP
+4443/tcp Open  HTTPS
+root@Kali:~/ pentesting/recon (master)# python3 tree_node.py --host 10.23.42.434 --port 22
+Tree Node: Reconnaissance
+- Passive Information Gathering (done)
+	+ Perform a full port scan
+	+ Determine the purpose of each open port
+- Active Information Gathering (done)
+	+ Identify open ports and services
+- Identify Open Ports and Services (in progress)
+	+

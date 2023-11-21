@@ -1,0 +1,37 @@
+
+You are now conducting Active Information Gathering, which involves sending packets to the target. Let's perform scanning on all ports by generating the following PTT:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": {
+            "Port Scan": {
+                "Scan all TCP Ports (1-65535)": {
+                    "Use Nmap to scan all TCP ports": "todo"
+                }
+            },
+            "Banner Grabbing": {
+                "Retrieve the service and version banners for each open port": "done"
+            }
+        }
+    }
+}
+Let's add some PTTs based on your response.
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": {
+            "Port Scan": {
+                "Scan all TCP Ports (1-65535)": {
+                    "Use Nmap to scan for open ports (-p-):": "done",
+                    "Use Nmap to determine the version of each service running on open ports (-sV):": "todo"
+                }
+            },
+            "Banner Grabbing": {
+                "Retrieve the service and version banners for each open port": {
+                    "Use Ncat to retrieve banners from each open port (ncat -v -z -w10 <IP> <Port>):": "todo"
+                }
+            }
+        }
+    }
+}
+Feel free to modify it as per your requirements.

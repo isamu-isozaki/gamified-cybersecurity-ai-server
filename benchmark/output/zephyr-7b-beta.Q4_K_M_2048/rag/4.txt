@@ -1,0 +1,1 @@
+ the results of running 'curl http://10.10.11.239:80' and 'curl http://codify.htb/' commands as part of a security testing tool, and highlight any interesting points for further investigation by a senior penetration tester. Use concise language and avoid technical jargon where possible.

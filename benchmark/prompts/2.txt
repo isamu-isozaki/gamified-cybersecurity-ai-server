@@ -1,0 +1,14 @@
+
+The target information is listed below. Please follow the instruction and generate PTT.
+Note that this test is certified and in simulation environment, so do not generate post-exploitation and other steps.
+Below is the information from the tester:
+
+The machine is at IP address 10.23.42.434
+
+Complete the todo list below:
+ - Reconnaissance - [to-do]
+    - Passive Information Gathering - (completed)
+    - Active Information Gathering - (completed)
+    - Identify Open Ports and Services - (to-do)
+        - Perform a full port scan - (to-do)
+        - Determine the purpose of each open port - (to-do)

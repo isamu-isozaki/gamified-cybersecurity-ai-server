@@ -1,0 +1,5 @@
+ Remember, the PTT script needs to perform the following actions:
+- Performs a full port scan of the given IP address (10.23.42.434)
+- Determines the purpose of each open port
+Then display a tree view of all identified services and their respective purposes.
+The PTT is expected to be a module that we can import into our other Python scripts, and should not have any user interface or prompts for input from the end user. It should directly display the resulting tree view in a terminal window once executed from within a Python script. The PTT should also include proper error handling for cases where the IP address provided is not valid or does not respond to a connection attempt. The PTT should be well-documented with clear and concise variable names, as well as comments explaining any non-obvious logic.

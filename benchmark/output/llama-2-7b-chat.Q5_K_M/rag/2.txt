@@ -1,0 +1,8 @@
+
+    - Maintain Access to the Target - (completed)
+    - Exfiltrate Data - [to-do]
+
+You are a cybersecurity professional tasked with conducting a penetration test on a target machine located at IP address 10.23.42.434. Your goal is to identify vulnerabilities and weaknesses in the system, and to simulate an attack from a malicious actor.
+You have completed the reconnaissance phase of the test, which included passive and active information gathering. You have identified open ports and services on the target machine, and you are now ready to move on to the next phase of the test: exploitation.
+In this phase, you will attempt to exploit any identified vulnerabilities in order to gain further access to the system or to execute malicious commands. You will use a combination of manual techniques and automated tools to accomplish your goals.
+As

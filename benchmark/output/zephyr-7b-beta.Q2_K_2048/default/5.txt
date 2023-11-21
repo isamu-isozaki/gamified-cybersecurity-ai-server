@@ -1,0 +1,1 @@
+ the potential security risks identified by the security testing tool when connecting via telnet to 10.10.11.239 on port 3000, and provide recommendations for mitigating these issues.

@@ -1,0 +1,1 @@
+ the key points of a security testing tool output that includes a telnet connection to an IP address. The summary should provide guidance for further investigation by a senior penetration tester. Use clear and concise language, and include any relevant details about the target system or network.

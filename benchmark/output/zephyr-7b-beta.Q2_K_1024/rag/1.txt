@@ -1,0 +1,3 @@
+, and it's running Windows Server 2008 R2 with no updates installed. The user account used to access this machine is named "Administrator" with password "P@ssw0rd". The machine's public DNS name is "192.168.10.53". The default gateway for the machine is "192.168.10.1", and the subnet mask is "255.255.255.0". 
+
+Your reconnaissance task is to perform a full port scan, then determine the purpose of each open port on this machine. Please provide a detailed report with your findings.

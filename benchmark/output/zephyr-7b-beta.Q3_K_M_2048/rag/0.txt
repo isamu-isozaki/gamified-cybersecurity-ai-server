@@ -1,0 +1,5 @@
+2 and has a hostname of pentest-target. We have determined that it runs Apache Web Server version 2.2.15, which is outdated and vulnerable to several critical security issues.
+There are three user accounts: admin (disabled), user (with ssh access), and root (ssh and root access). The root password has been changed from the default of "docker" to a new password we do not know.
+A DORA report indicates that the Apache Web Server is running on ports 80 and 443, however this appears to be incorrect as port scanning shows open ports 12345 and 97654.
+The firewall is running iptables version 1.6 on Linux kernel 2.6.18.
+Can you summarize the given text material and convert it into a hierarchical tree structure using Python's `TreeNode` class?

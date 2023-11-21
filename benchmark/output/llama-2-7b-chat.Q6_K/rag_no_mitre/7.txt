@@ -1,0 +1,29 @@
+
+Please generate PTT using this template for each port (21, 22, 445, 80, 443) and provide the results below:
+For port 21:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": {
+                "Port 21 (FTP) open with username: ftp and password: email protected"
+            },
+        },
+    }
+}
+For port 22:
+
+{
+
+    "Reconnaissance": {
+
+        "Passive Information Gathering": "done",
+
+        "Active Information Gathering": "done",
+
+    },
+
+"Identify Open Ports and Services": {
+
+            "Per

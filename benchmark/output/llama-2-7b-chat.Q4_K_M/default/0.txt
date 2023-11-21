@@ -1,0 +1,3 @@
+. The OS is Windows Server version 2019, and there are no firewalls enabled on the system.
+You may generate PTT based on this information by adding nodes to the root node "Pentesting" in the template above. Each node should represent a phase of the penetration test, and should contain at least one child node representing an action or task to be performed during that phase.
+Note: do not include post-exploitation or other steps that require access to the target system. Your PTT should only represent the pre-exploitation phases of a penetration test.

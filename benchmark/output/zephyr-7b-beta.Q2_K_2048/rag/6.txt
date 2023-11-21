@@ -1,0 +1,56 @@
+ The solution must be written as a tree node, like the examples above. Please ensure that your solution conforms to the coding guidelines provided.
+For this problem, there are no specific tools or techniques required except for knowledge of common information gathering techniques for network security assessments and basic Python programming skills. It's recommended that you review reconnaissance in the SANS Institute's Securing The Human (STH) training material.
+The tree node should have a name attribute with the value "Initial Network Scan".
+The tree nodes for passive information gathering, active information gathering, and target IP address should be added as children of the newly created node.
+The code to execute this task is in the add() function.
+This problem requires creating a tree representing your understanding of network port scanning techniques.
+In order to solve this problem, you will need a basic knowledge of Python programming and network security assessments. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network port scanning.
+The root node should have a name attribute with the value "Port Scanning Techniques".
+Create four child nodes for "TCP SYN Stealth Scan", "TCP ACK Scan", "TCP Ping Sweep", and "UDP Scan" respectively.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding.
+This problem requires creating a tree representing your understanding of different types of network reconnaissance techniques.
+In order to solve this problem, you will need a basic knowledge of Python programming and networking concepts. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network reconnaissance techniques.
+The root node should have a name attribute with the value "Network Reconnaissance Techniques".
+Create six child nodes for "Passive Information Gathering", "Active Information Gathering", "Vulnerability Scanning", "Brute Force Attacks", "Man-in-the-middle attacks", and "Information Sharing" respectively.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding.
+This problem requires creating a tree representing different types of network reconnaissance techniques.
+In order to solve this problem, you will need basic knowledge of Python programming and networking concepts. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network reconnaissance techniques.
+The root node should have a name attribute with the value "Network Reconnaissance Techniques".
+Create four child nodes for "Passive Information Gathering", "Active Information Gathering", and "Vulnerability Scanning" respectively, as well as create an additional node called "Others" to contain any additional techniques you may be aware of.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding.
+This problem requires creating a tree representing different types of network security assessments.
+In order to solve this problem, you will need a basic knowledge of Python programming and networking concepts. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network security assessments.
+The root node should have a name attribute with the value "Network Security Assessments".
+Create four child nodes for "Vulnerability Scanning", "Penetration Testing", "Regular Security Audits", and "Compliance Assessments" respectively, as well as create an additional node called "Others" to contain any additional techniques you may be aware of.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding.
+This problem requires creating a tree representing different types of network security assessments.
+In order to solve this problem, you will need a basic knowledge of Python programming and networking concepts. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network security assessments.
+The root node should have a name attribute with the value "Network Security Assessments".
+Create four child nodes for "Vulnerability Scanning", "Penetration Testing", and "Regular Security Audits" respectively, as well as create an additional node called "Others" to contain any additional techniques you may be aware of.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding.
+This problem requires creating a tree representing different types of network security assessments.
+In order to solve this problem, you will need a basic knowledge of Python programming and networking concepts. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network security assessments.
+The root node should have a name attribute with the value "Network Security Assessments".
+Create four child nodes for "Vulnerability Scanning", "Penetration Testing", and "Regular Security Audits" respectively, as well as create an additional node called "Others" to contain any additional techniques you may be aware of.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding.
+This problem requires creating a tree representing different types of network security assessments.
+In order to solve this problem, you will need a basic knowledge of Python programming and networking concepts. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network security assessments.
+The root node should have a name attribute with the value "Network Security Assessments".
+Create four child nodes for "Vulnerability Scanning", "Penetration Testing", and "Regular Security Audits" respectively, as well as create an additional node called "Others" to contain any additional techniques you may be aware of.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding.
+This problem requires creating a tree representing different types of network security assessments.
+In order to solve this problem, you will need a basic knowledge of Python programming and networking concepts. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network security assessments.
+The root node should have a name attribute with the value "Network Security Assessments".
+Create four child nodes for "Vulnerability Scanning", "Penetration Testing", and "Regular Security Audits" respectively, as well as create an additional node called "Others" to contain any additional techniques you may be aware of.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding.
+This problem requires creating a tree representing different types of network security assessments.
+In order to solve this problem, you will need a basic knowledge of Python programming and networking concepts. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network security assessments.
+The root node should have a name attribute with the value "Network Security Assessments".
+Create four child nodes for "Vulnerability Scanning", "Penetration Testing", and "Regular Security Audits" respectively, as well as create an additional node called "Others" to contain any additional techniques you may be aware of.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding.
+This problem requires creating a tree representing different types of network security assessments.
+In order to solve this problem, you will need a basic knowledge of Python programming and networking concepts. It's recommended that you review SANS Institute's Securing The Human (STH) training material regarding network security assessments.
+The root node should have a name attribute with the value "Network Security Assessments".
+Create four child nodes for "Vulnerability Scanning", "Penetration Testing", and "Regular Security Audits" respectively, as well as create an additional node called "Others" to contain any additional techniques you may be aware of.
+Add necessary sub-nodes to each of the previously created nodes, as per your understanding. The solution must be written as a tree node, like the examples above.
+In order to solve this problem, you will need basic knowledge in Python

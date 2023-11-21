@@ -1,0 +1,5 @@
+ and has open ports 80, 443, and 5672. The purpose of each port is as follows:
+* Port 80: HTTP (used for web browsing)
+* Port 443: HTTPS (used for secure web browsing)
+* Port 5672: SMB (used for file sharing)
+The tree structure should reflect this information, with each node representing a different type of information gathering and the sub-nodes representing the specific steps involved in that process. The completion status of each node should be "done" when the step is completed successfully.

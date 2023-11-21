@@ -1,0 +1,1 @@
+ the output of the command 'curl http://codify.htb/' and explain why it fails to execute.

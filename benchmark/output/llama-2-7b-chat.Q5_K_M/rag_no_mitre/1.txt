@@ -1,0 +1,2 @@
+ on a network called 10.23.42.0/24, and the FTP server is at IP address 10.23.42.434 with an SSH server running on port 22.
+The target has a web server listening on port 80 of the internal network (of the FTP server). The web server runs on Apache/1.3.14 and the OS is Linux 2.6.9-15-amd64. The FTP server has an internal network segment at 10.23.42.100-254, which has a firewall running on port

@@ -1,0 +1,1 @@
+ the results of executing the following commands: curl http://10.10.11.239:80 and curl http://codify.htb/.

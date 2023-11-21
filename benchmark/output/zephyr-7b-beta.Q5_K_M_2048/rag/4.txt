@@ -1,0 +1,1 @@
+ the findings from the security testing tool, including any interesting points and potential areas for further investigation based on the input content provided. Use clear and concise language and provide supporting evidence where possible.

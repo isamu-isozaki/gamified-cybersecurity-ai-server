@@ -1,0 +1,18 @@
+
+The operating system is Windows Server 2019 Datacenter Edition
+There are 8 open ports: 22 (SSH), 80 (HTTP), 443 (HTTPS), 1433 (SQL Server), 135 (MSRPC), 139 (NetBIOS Session Service), 389 (LDAP), and 49152-65535 (RDP)
+The machine is vulnerable to the EternalBlue exploit.
+The below is a list of users:
+Administrator
+Guest
+User
+
+Ideally, generate test cases that cover different scenarios such as:
+- Completing all tasks in the phishing simulation and recording success rate.
+- Leaving some tasks incomplete and simulate the outcome (such as missing critical information).
+- Simulating a scenario where the simulation is interrupted or terminated early.
+- Simulating different user roles (e.g., administrator vs regular user) and how they impact simulation outcomes.
+- Testing the ability to simulate phishing attacks using real-world email templates and measuring effectiveness.
+- Measuring the simulation's sensitivity to different attack scenarios, such as social engineering or spear-phishing.
+
+These are just a few examples, but you can create more test cases based on your specific requirements for the simulation tool. Remember to prioritize testing the critical path and common error scenarios first before expanding to less important areas.

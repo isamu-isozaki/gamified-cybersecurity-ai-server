@@ -1,0 +1,2 @@
+ and has a hostname "testbox". The machine is a Windows 10 Professional machine with a username of "user1" and a password of "password1". The machine has the following open ports: TCP 80, TCP 443, TCP 5672, TCP 5673, UDP 53.
+Please generate the PTT based on the information provided.

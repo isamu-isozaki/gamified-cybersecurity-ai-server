@@ -1,0 +1,6 @@
+ and has a hostname of "lab01". A full port scan shows that there are several open ports, including ports 22 (SSH), 80 (HTTP), and 443 (HTTPS). You can assume that the machine is running a Linux distribution based on the output of the following command:
+```
+lsb_distro = Ubuntu
+```
+
+Please generate the next step in PTT format.

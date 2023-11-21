@@ -1,0 +1,76 @@
+
+   - Map Network Devices - (to-do)
+
+ - Vulnerability Scanning - [to-do]
+    - Define potential vulnerabilities - (completed)
+    - Perform a vulnerability scan of the target machine using Nessus or OpenVAS - (to-do)
+    - Analyze and report the results - (to-do)
+   - Confirm the existence of each vulnerability through exploitation - (to-do)
+
+ - Exploitation - [to-do]
+    - Select an exploit from the following list:
+        - CVE-2018-4937
+        - CVE-2021-31563
+        - CVE-2021-26858
+    - Confirm the existence of the selected vulnerability through exploitation - (to-do)
+    - Gain access to the machine by executing the selected exploit - (to-do)
+   - Maintain Access - (to-do)
+        - Create a backdoor or reverse shell - (to-do)
+        - Set up persistence - (to-do)
+            - Schedule a task - (to-do)
+            - Modify the registry - (to-do)
+            - Write to the Windows Startup folder - (to-do)
+       - Hide your presence - (to-do)
+           - Disable security software - (to-do)
+           - Delete system logs and event viewer - (to-do)
+           - Remove evidence of your activity - (to-do)
+   - Maintain Access - [ongoing]
+       - Monitor the machine for any suspicious activity or security updates - (ongoing)
+       - Regularly update the backdoor or reverse shell to avoid detection - (ongoing)
+       - Continuously gather intelligence on the organization and its network - (ongoing)
+   - Exfiltration of Data - [to-do]
+      - Define data types to be exfiltrated - (completed)
+         - Usernames and passwords - (checked)
+         - Financial information - (checked)
+         - Intellectual property - (unchecked)
+         - Personal identifiable information (PII) - (unchecked)
+      - Select a data transfer method - (to-do)
+         - Steganography - (unchecked)
+         - Base64 encoding - (unchecked)
+         - SMB - (unchecked)
+         - FTP - (unchecked)
+         - HTTP GET requests - (checked)
+      - Exfiltrate the data using the selected transfer method - (to-do)
+   - Cover your tracks - [ongoing]
+       - Delete all traces of your activity from the machine and network - (ongoing)
+       - Remove any evidence that could lead back to you - (ongoing)
+       - Use disposable tools and malware - (ongoing)
+       - Cover your IP address using a proxy server or VPN - (ongoing)
+   - Post-Exploitation Activities - [to-do]
+      - Install additional malware - (unchecked)
+         - Keyloggers - (unchecked)
+         - Ransomware - (unchecked)
+         - Trojan horses - (unchecked)
+         - Spyware - (unchecked)
+      - Perform any necessary cleanup tasks - (unchecked)
+         - Remove unnecessary files and processes - (unchecked)
+         - Modify system settings to suit your needs - (unchecked)
+         - Disable antivirus programs - (unchecked)
+       - Execute additional attacks if desired - (unchecked)
+          - Denial of service (DoS) - (unchecked)
+          - Lateral movement - (unchecked)
+          - Privilege escalation - (unchecked)
+   - Finalize the Attack - [to-do]
+      - Disconnect from the network and the target machine - (to-do)
+      - Document your experience, including any notable challenges or successes - (to-do)
+      - Submit the report to the organization responsible for resolving security issues - (to-do)
+   - Future Considerations - [ongoing]
+       - Continuously monitor the target machine and network for security updates and suspicious activity - (ongoing)
+       - Update your techniques and tools as needed - (ongoing)
+       - Stay up-to-date on industry trends and best practices - (ongoing)
+   - Conclusion - [ongoing]
+       - Summarize the key takeaways from this exercise - (ongoing)
+       - Reflect on any notable insights or realizations - (ongoing)
+       - Consider potential areas for improvement - (ongoing)
+
+Note: The above todo list is just an example of what should be included in a targeted attack simulation, and can be customized based on specific circumstances and objectives. The instructions provided herein are for educational and training purposes only, and should not be used to perform malicious activities in any real-world contexts without prior consent from the target organization's authorized personnel.

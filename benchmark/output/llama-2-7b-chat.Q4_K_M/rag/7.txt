@@ -1,0 +1,3 @@
+
+Please modify the template based on the results of your reconnaissance to reflect the actual open ports, services, and purpose for each port.
+Thank you!

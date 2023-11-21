@@ -1,0 +1,25 @@
+
+Also, the keys must be snake_case (lowercase, separate words with underscores) and values are strings, booleans or lists of dictionaries. This is a JSON format. Do not use comments, whitespace, or other unnecessary lines.
+Examples:
+{ "foo": "bar", "baz": True }   # Correct dictionary
+{ "foo ": "bar" }   # Incorrect dictionary (leading space in key)
+[ { "x": 1 }, { "y": 2 } }     # List of dictionaries, correct usage and structure
+This example is invalid due to incorrect format. Do not use this as a template for your PTT:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": {
+            "NMAP Scan": "todo",
+            "NIKS Scan": "done"
+        },
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": "todo",
+            "Determine the purpose of each open port": "todo"
+        }
+    },
+    "Preparation": {
+        "Install Malware": "done",
+        "Establish Persistence": "done"
+    },
+    "Escalation": {}
+}   # Incorrect format, do not use this as a template for your PTT

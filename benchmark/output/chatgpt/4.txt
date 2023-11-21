@@ -1,0 +1,5 @@
+Nmap scan results for 10.10.11.239 show open ports 22 (SSH), 80 (HTTP), and 3000 (PPP). Further penetration testing required.
+
+
+
+

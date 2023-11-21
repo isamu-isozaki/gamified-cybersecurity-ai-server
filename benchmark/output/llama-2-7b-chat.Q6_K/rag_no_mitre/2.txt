@@ -1,0 +1,8 @@
+
+    - Vulnerability Scanning - (to-do)
+        - Perform a vulnerability scan on the machine using Nmap - (to-do)
+        - Identify any known vulnerabilities in the system and applications - (to-do)
+    - Post-Exploitation - (to-do)
+        - Install a backdoor for future access - (to-do)
+
+To complete each task, you will need to use various tools and techniques. The tool you used for the passive reconnaissance is fine. However, for active information gathering, you may want to consider using tools such as Nmap or Netcat to probe the target machine's services and ports. For vulnerability scanning,

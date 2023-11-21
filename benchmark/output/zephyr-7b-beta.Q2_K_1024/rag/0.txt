@@ -1,0 +1,4 @@
+ and has a fully qualified domain name of example.com.
+HTTP server running on port 80 with Apache/2.4.6 (CentOS) OpenSSH version 7.6p1 is running on port 22.
+The target host also seems to have NTP service running, as evidenced by the presence of a single NTP server (ntp1.cac.washington.edu), which appears to be synchronized with the local machine.
+How can we utilize python-certified to simulate a complete pentesting process based on the target information provided?

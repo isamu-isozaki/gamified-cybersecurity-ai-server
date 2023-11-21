@@ -1,0 +1,6 @@
+The input content is from a security testing tool. You need to list down all the points that are interesting to you; you should summarize it as if you are reporting to a senior penetration tester for further guidance.\n
+telnet 10.10.11.239 3000
+Trying 10.10.11.239...
+Connected to 10.10.11.239.
+Escape character is '^]'.
+please summarize in 50 words or less

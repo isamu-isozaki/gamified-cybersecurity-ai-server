@@ -1,0 +1,22 @@
+
+Please provide your PTT response as a Python dictionary formatted as follows:
+{
+    "Reconnaissance": {
+        "Passive Information Gathering": "done",
+        "Active Information Gathering": "done",
+        "Identify Open Ports and Services": {
+            "Perform a full port scan": {
+                "Tools Used": ["Nmap"],
+                "Command Line Argument": "-p 1-65535",
+                "Output Format": "txt",
+            },
+            "Determine the purpose of each open port": {
+                "Tools Used": ["Nmap"],
+                "Command Line Argument": "-sS",
+                "Output Format": "csv",
+            },
+        },
+    }
+}
+
+Please provide your PTT response as a Python dictionary.

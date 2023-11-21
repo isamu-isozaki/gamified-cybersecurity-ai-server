@@ -1,0 +1,129 @@
+
+1. Reconnaissance - [to-do]
+   1.1 Passive Information Gathering - (completed)
+       1.1.1 DNS lookup - (completed)
+       1.1.2 Google Search - (completed)
+       1.1.3 Shodan Search - (completed)
+   1.2 Active Information Gathering - (completed)
+       1.2.1 Nmap Script Scan "http-enum" and "vuln" - (completed)
+       1.2.2 Nikto scan - (completed)
+       1.2.3 Metasploit AutoPwn scan - (completed)
+   1.3 Identify Open Ports and Services - (to-do)
+       1.3.1 Perform a full port scan - (to-do)
+       1.3.2 Determine the purpose of each open port - (to-do)
+Below are the results from DNS lookup, Google Search, Shodan Search, Nmap Script Scan "http-enum" and "vuln", Nikto scan, and Metasploit AutoPwn scan: 
+
+
+DNS lookup:
+Domain Name: example.com
+IP Address: 10.23.42.43
+Hostname: example.com
+DNS Server: 8.8.8.8
+DNS Server: 8.8.4.4
+
+Google Search:
+- "example.com" search did not reveal any public information.
+
+Shodan Search:
+- No results found.
+
+Nmap Script Scan "http-enum" and "vuln":
+---
+Host: example.com (10.23.42.43)
+Notice: Output has been narrowed to 10 items. If you need to save all items, use the -oA flag.
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-09 06:48 EDT
+Nmap scan report for example.com (10.23.42.43)
+Host is up (0.053s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: B0:1B:F6:D6:A4:E5 (VMware)
+Nmap done: 1 IP address (1 host up) scanned in 4.38 seconds
+---
+HTTP-Server-Signature: Apache
+Date: Mon, 09 Aug 2021 06:48:33 GMT
+Server: Apache/2.4.37 (Ubuntu)
+Last-Modified: Thu, 22 Jul 2021 10:42:57 GMT
+ETag: "1627351639+idc"
+Accept-Ranges: bytes
+Content-Length: 8192
+
+Nmap report for "http://example.com":
+Host is up (0.053s latency).
+PORT   STATE SERVICE
+80/tcp open  http
+|http|>
+HTTP/1.1 "GET / HTTP/1.1"
+Host: example.com
+User-Agent: Nmap/7.91 ( https://nmap.org ) Scan Report for example.com (10.23.42.43)
+Accept: */*
+
+HTTP 200 OK Response:
+HTTP/1.1 200 OK
+Server: Apache/2.4.37 (Ubuntu)
+Date: Mon, 09 Aug 2021 06:48:33 GMT
+Last-Modified: Thu, 22 Jul 2021 10:42:57 GMT
+ETag: "1627351639+idc"
+Accept-Ranges: bytes
+Content-Length: 8192
+Connection: close
+Content-Type: text/html;charset=UTF-8
+
+Nmap report for "http://example.com/robots.txt":
+Host is up (0.053s latency).
+PORT   STATE SERVICE
+80/tcp open  http
+|http|>
+GET /robots.txt HTTP/1.1
+Host: example.com
+User-Agent: Nmap/7.91 ( https://nmap.org ) Scan Report for example.com (10.23.42.43)
+Accept: */*
+
+HTTP 404 Not Found Response:
+HTTP/1.1 404 Not Found
+Server: Apache/2.4.37 (Ubuntu)
+Date: Mon, 09 Aug 2021 06:48:38 GMT
+Last-Modified: Thu, 22 Jul 2021 10:42:57 GMT
+ETag: "1627351639+idc"
+Accept-Ranges: bytes
+Content-Length: 198
+Connection: close
+Content-Type: text/html;charset=ISO-8859-1
+
+Nmap report for "http://example.com/favicon.ico":
+Host is up (0.053s latency).
+PORT   STATE SERVICE
+80/tcp open  http
+|http|>
+GET /favicon.ico HTTP/1.1
+Host: example.com
+User-Agent: Nmap/7.91 ( https://nmap.org ) Scan Report for example.com (10.23.42.43)
+Accept: image/x-icon,image/*,*/*
+
+HTTP 404 Not Found Response:
+HTTP/1.1 404 Not Found
+Server: Apache/2.4.37 (Ubuntu)
+Date: Mon, 09 Aug 2021 06:48:38 GMT
+Last-Modified: Thu, 22 Jul 2021 10:42:57 GMT
+ETag: "1627351639+idc"
+Accept-Ranges: bytes
+Content-Length: 198
+Connection: close
+Content-Type: text/html;charset=ISO-8859-1
+
+Nmap report for "http://example.com/images":
+Host is up (0.053s latency).
+PORT   STATE SERVICE
+80/tcp open  http
+|http|>
+GET /images HTTP/1.1
+Host: example.com
+User-Agent: Nmap/7.91 ( https://nmap.org ) Scan Report for example.com (10.23.42.43)
+Accept: image/*,*/*
+
+HTTP 404 Not Found Response:
+HTTP/1.1 404 Not Found
+Server: Apache/2.4.37 (Ubuntu)
+Date: Mon, 09 Aug 2021 06:48:38 GMT
+Last-Modified
